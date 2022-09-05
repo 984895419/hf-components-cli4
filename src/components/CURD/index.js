@@ -17,14 +17,20 @@ import CopyFormItemDict from "./developing/CopyFormItemDict.vue";
 import cuFrom from "./Form/cuFrom.vue";
 import EnableStateformItemText from "./Form/EnableStateformItemText.vue";
 import formItemCol from "./Form/formItemCol.vue";
+import formItemColDateTime from "./Form/formItemColDateTime.vue";
+import formItemColDateTimeRange from "./Form/formItemColDateTimeRange.vue";
 import formItemColDict from "./Form/formItemColDict.vue";
 import formItemColEnableState from "./Form/formItemColEnableState.vue";
+import formItemColRadio from "./Form/formItemColRadio.vue";
+import formItemColRichText from "./Form/formItemColRichText.vue";
 import formItemColSelect from "./Form/formItemColSelect.vue";
 import formItemColTextarea from "./Form/formItemColTextarea.vue";
 import formItemColUploadImage from "./Form/formItemColUploadImage.vue";
 import formItemText from "./Form/formItemText.vue";
 // // JsonEditor
 import JsonEditor from "./JsonEditor/index.vue";
+// // Layout
+import SimpleTableLayout from "./Layout/SimpleTableLayout.vue";
 // Pagination
 import CurdPagination from "./pagination/Pagination.vue";
 // Query
@@ -33,6 +39,7 @@ import SimpleSearch from "./Query/search.vue";
 import RowSpanSlot from "./Slot/RowSpanSlot.vue";
 // Table 
 import HfTable from "./Table/HfTable.vue";
+import AdaptorTableColumn from "./Table/AdaptorTableColumn.vue";
 // column base
 import DateTimeFormatTableColumn from "./Table/column/base/DateTimeFormatTableColumn.vue";
 import SectionTableColumn from "./Table/column/base/SectionTableColumn.vue";
@@ -52,6 +59,7 @@ import TableColumnSelect from "./Table/select/TableColumnSelect.vue";
 import baseApi from './baseApi.js'
 import curdmixin from './curd.mixin.js'
 import defaultUrl from './defaultUrl.js'
+import formItemMixin from './Form/formItem.mixin.js'
 
 
 import TextBtns from "./TextBtns/index.vue";
@@ -64,11 +72,11 @@ const coms = [
   CopyFormItemDict, cuFrom, EnableStateformItemText,
   formItemCol, formItemColDict, formItemColEnableState,
   formItemColSelect, formItemColTextarea, formItemColUploadImage,
-  formItemText, JsonEditor, CurdPagination, SimpleSearch, RowSpanSlot,
-  HfTable, DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn,
+  formItemText, JsonEditor, SimpleTableLayout,CurdPagination, SimpleSearch, RowSpanSlot,
+  HfTable, AdaptorTableColumn,DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn,
   CopierRender, CreateTimeTableColumn, CreatorTableColumn, DefaultTableColumn,
-  EnableStateTableColumn, ImageTableColumn, ModifierTableColumn,
-  ModifyTimeTableColumn, TableColumnSelect, 
+  EnableStateTableColumn, ImageTableColumn, ModifierTableColumn,formItemColDateTimeRange,
+  ModifyTimeTableColumn, TableColumnSelect, formItemColDateTime,formItemColRadio,formItemColRichText,
   TextBtns, aa
 ]; // 将来如果有其它组件,都可以写到这个数组里
 
@@ -85,4 +93,5 @@ export {
   baseApi,
   curdmixin,
   defaultUrl,
+  formItemMixin
 }
