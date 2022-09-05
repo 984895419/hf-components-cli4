@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <add-btn :init-data="{ 'age': 1 }">
+      <div>123</div>
+    </add-btn>
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 

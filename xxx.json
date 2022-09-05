@@ -1,0 +1,2464 @@
+{
+    "maintainers": [{
+        "name": "hangmine",
+        "email": "95629358@qq.com"
+    }],
+    "dist-tags": {
+        "latest": "1.0.57"
+    },
+    "description": "基于Vue的PC端UI框架",
+    "readme": "# hang-ui\n\n项目需要基于 vue + elementUI + axios\n\n## Project setup\n\n```\nnpm install\n```\n\n### Compiles and hot-reloads for development\n\n```\nnpm run serve\n```\n\n### Compiles and minifies for production\n\n```\nnpm run build\n```\n\n### Run your tests\n\n```\nnpm run test\n```\n\n### Lints and fixes files\n\n```\nnpm run lint\n```\n\n### Customize configuration\n\nSee [Configuration Reference](https://cli.vuejs.org/config/).\n",
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/HangMine/hf-ui.git"
+    },
+    "bugs": {
+        "url": "https://gitlab.com/HangMine/hf-ui/issues"
+    },
+    "versions": {
+        "1.0.0": {
+            "name": "hf-ui",
+            "version": "1.0.0",
+            "description": "初始版本组件库",
+            "main": "hf-ui.common.0.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.0",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-SSyRHx/d6SvAjb1HLhOeJkPP2rcYNbIYhCPK3Nq2rYIYcru4QDGYSAo13J0jfYMPmeHJzZ/uwI/L0GoVT612/A==",
+                "shasum": "d9a3998e87c47647377198081e37089e360a3863",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.0.tgz"
+            }
+        },
+        "1.0.1": {
+            "name": "hf-ui",
+            "version": "1.0.1",
+            "description": "新增测试组件",
+            "main": "hf-ui.common.0.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.1",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-G76sVwMnhkMRpVe9HWJm0ze4HWVr6zO+8Wr19nai2HItYOEY06tEj0cufVdkFlkbRum07sMG3i8/rqV+MbXvCg==",
+                "shasum": "04c113302113dd935017adcfe89549a215dfa1d0",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.1.tgz"
+            }
+        },
+        "1.0.11": {
+            "name": "hf-ui",
+            "version": "1.0.11",
+            "description": "新增测试组件",
+            "main": "hf-ui.common.0.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.11",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-t7Tb4MRb+wWwzierC2AbuU057zKzQvhioPlSP53j0b2s4CE1+bcDzX85+ybvJ7KZCuinE1Hv0Do9XKTkE6kKEg==",
+                "shasum": "97993a5a6d96b8806b8b8964182050e19b2eb8d3",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.11.tgz"
+            }
+        },
+        "1.0.12": {
+            "name": "hf-ui",
+            "version": "1.0.12",
+            "description": "test",
+            "main": "hf-ui.common.0.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.12",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-/2ce3MBSayamN4Ybb6QGA2PE/BIpl5ICER30w0QWwWx0o5ng02dHpcPIM1behTticcf4ADZnXFZFGDI2Luf5rA==",
+                "shasum": "112de3ffca5bde77843fdd96614610c83487004f",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.12.tgz"
+            }
+        },
+        "1.0.13": {
+            "name": "hf-ui",
+            "version": "1.0.13",
+            "description": "1.0.13",
+            "main": "hf-ui.common.0.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.13",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-q0g9N9B9DDhEoGf/LVtXo4+oKp+PdwYk9N9N/59GpLxjSRZYWPWyD4ruHI4dbnrVI4DZgOInvB7eQMao8otDWQ==",
+                "shasum": "70ffd1e4e70560f4210b0da9c471ee1686fc1c2b",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.13.tgz"
+            }
+        },
+        "1.0.14": {
+            "name": "hf-ui",
+            "version": "1.0.14",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.14",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-L4zgIBhwmC0YZvPsT3+lZIv9OhIMtTneSrQdyua7L5Ev6vbK9MhKP+Ej1eR5pbma7+W5Cod0fuum0Ci3gtbgOw==",
+                "shasum": "a0ee66bbb56d81d485d86398b9155f8921cdd75a",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.14.tgz"
+            }
+        },
+        "1.0.15": {
+            "name": "hf-ui",
+            "version": "1.0.15",
+            "description": "",
+            "main": "hf-ui/hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.15",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-ue+HCbpncaYFK/Sr6ClxogPMoxU9gPo9OhZf3SF1sfki/SW4OiheMEhpLy+7NWC8C6i925eC917dZ6Jp20kwUg==",
+                "shasum": "bdb60c141846cce6af0d8520a7f27f0864a12261",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.15.tgz"
+            }
+        },
+        "1.0.16": {
+            "name": "hf-ui",
+            "version": "1.0.16",
+            "description": "",
+            "main": "hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.16",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-+18yJ+oMxzjWD0Rn78MKxeBQmgO+eNWGfD6W58LbOIdFuG9MPhiO2+GrTmISI7UpZxX1AcbffGuzcpMnZdtscQ==",
+                "shasum": "e96e27718eed3ca66cc18d7626c52389be4049a7",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.16.tgz"
+            }
+        },
+        "1.0.17": {
+            "name": "hf-ui",
+            "version": "1.0.17",
+            "description": "",
+            "main": "hf-ui/hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.17",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-ksvz0g1UAsbyfBppRaKq9+EeBiYiwcg3ZxUmheD/EQCx69waIPWZBO29a8hxfMqZ4hFK8LgrckzAUtjeQHXt7w==",
+                "shasum": "c41f0cc312694fd1ac764f4f4d0d04a0d555034b",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.17.tgz"
+            }
+        },
+        "1.0.18": {
+            "name": "hf-ui",
+            "version": "1.0.18",
+            "description": "",
+            "main": "hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.18",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-eveu70MvQjgUkUVXUatQM/0x33X0DzNOyfCRgcHPOfHkvtVgTEeI4yKz83eXFycyNPg//yWQfjxH7LT+nDYa3w==",
+                "shasum": "66b3d2d1df8d6d121e513d5c7dcf5781864f99da",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.18.tgz"
+            }
+        },
+        "1.0.19": {
+            "name": "hf-ui",
+            "version": "1.0.19",
+            "description": "",
+            "main": "hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.19",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-Ae92v24csCtH7KpJREt7ScrDb4Xqz6RZhbOo9I0QBwPLx7cs5TOhqPEYIY1gdSFDe4xvfenrSt3q5u0/kj/xvw==",
+                "shasum": "7689cb688a59843b0700424c69e0d0c4fb007b42",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.19.tgz"
+            }
+        },
+        "1.0.2": {
+            "name": "hf-ui",
+            "version": "1.0.2",
+            "description": "",
+            "main": "hf-ui/hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.2",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            },
+            "maintainers": [{
+                "name": "npmAdmin",
+                "email": "jiannan.song@huafeng-cn.com"
+            }],
+            "dist": {
+                "integrity": "sha512-yOc6y+RSdrrjU8aYiDreVx+MT9eGwArFlZoHOS4uhDe2TJsyrg6ZHoGoKIH+Z/lL5DYy8UWrtfHzjdnQ0TSeWQ==",
+                "shasum": "1866ef2b05b7df219881e1ef00fbbd5b1110b3ff",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.2.tgz"
+            }
+        },
+        "1.0.20": {
+            "name": "hf-ui",
+            "version": "1.0.20",
+            "description": "",
+            "main": "hf-ui/hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.20",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-pBCDquaT//hqDkqYLCwms0TF9UI0hCL63MaQkcn2IMl/RTOacuSIwYThS3gwbey8j2oUzNbjhgxgL9/WYkpaOA==",
+                "shasum": "480062c40986a1cf0ede64d2882d754d0fa7c4f0",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.20.tgz"
+            }
+        },
+        "1.0.21": {
+            "name": "hf-ui",
+            "version": "1.0.21",
+            "description": "",
+            "main": "hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.21",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-soFNR66HinFIHWp+091HDZVhvCEcEemID8DMkKIqNBtOT/eWtvKQhXT6OPDX1B51LfbSIBJWCUnz3vDeGCyKIw==",
+                "shasum": "dc8939ba8f0faca6e186027f487f5b21f71e4852",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.21.tgz"
+            }
+        },
+        "1.0.22": {
+            "name": "hf-ui",
+            "version": "1.0.22",
+            "description": "1.0.22",
+            "main": "hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.22",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-hZAHKimb87nxuPWORA8wjxxl27qGn+kY12Y7wHvu12tqPgFeRU3Ov76yb5wcKf7uxfTEe14L5LeS5/5eMLa6ew==",
+                "shasum": "b05b0276f844b55227885da51b9ae69cbc8b284a",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.22.tgz"
+            }
+        },
+        "1.0.24": {
+            "name": "hf-ui",
+            "version": "1.0.24",
+            "description": "",
+            "main": "hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.24",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-0U1Z/cYDvyaOSJduvRyjxm9SjkWLbC7SjLgCwWQPeo9AEcgBQcao180sZkvHLCqhhyUottYgwY4yxFubx8lFGg==",
+                "shasum": "3333cdfbd889b5cc3d2744048c7034649118c662",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.24.tgz"
+            }
+        },
+        "1.0.25": {
+            "name": "hf-ui",
+            "version": "1.0.25",
+            "description": "",
+            "main": "hf-ui.common.0.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.25",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-7r2jgn0893PfGjX423G/s0T5jKhInUg+2d8UDItJoxQ0OsPdtS1RxrRBLl849kxBfzaU+H1jvNcZMckExVMXNw==",
+                "shasum": "457a915eed2dd1eac060123a17eb602da71c8a69",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.25.tgz"
+            }
+        },
+        "1.0.26": {
+            "name": "hf-ui",
+            "version": "1.0.26",
+            "description": "",
+            "main": "hf-ui.common.0.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.26",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-HtJgVksgkq41MSfhZceR/qB6+XaFmEZrvC36QCT1QCPFOUwH6OOL0C7W7zHXlxxens0AyiDKeDesHDwDhZ6igQ==",
+                "shasum": "70e7fbb9ba3cefbb7a00b975b216ff3c34e167fe",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.26.tgz"
+            }
+        },
+        "1.0.28": {
+            "name": "hf-ui",
+            "version": "1.0.28",
+            "description": "",
+            "main": "hf-ui.common.hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.28",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-o1QdWwZEgqkGztJhfkGHcupwGqZg2/UuKFFqBao8LzPBS6QRHWHhC66XGi4DIlDVgwH6mNBR+KjbM7bL117bGg==",
+                "shasum": "e2212c6458a410da820c21ea8458601b95310db9",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.28.tgz"
+            }
+        },
+        "1.0.29": {
+            "name": "hf-ui",
+            "version": "1.0.29",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.29",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-j8T5K4Fgc8m3EBGIZjfhSe8X3qch8ijqqri7nqyGAxL6owzPgl8sMduE5T32nKAGF58SGw8bVpX70NLCrSN1cQ==",
+                "shasum": "23908bfcec5d442ed905f5c74484dcce10ab5da6",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.29.tgz"
+            }
+        },
+        "1.0.31": {
+            "name": "hf-ui",
+            "version": "1.0.31",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.31",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-QL3+SsIgdbiIHZFE5ITWPSlo53iseYC4MN4MdRyAAAgj463H7VcZIOXqD5rcVsx4ykFuiqaCXnX/NztK/k1IuQ==",
+                "shasum": "ae576866b464f93434bd01826f1a7f50317f1782",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.31.tgz"
+            }
+        },
+        "1.0.32": {
+            "name": "hf-ui",
+            "version": "1.0.32",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.32",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-WGIwvs7bS9D3UN2kFxn9epBlUuLql6aDwsHqHbvMCdJexzjd9ecYvYFO2ShZ6vsPwCbAZeTAy6gPzrMxuJ/R/g==",
+                "shasum": "d73b53d68c8df2435a8dd5c0cdf880097938e87c",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.32.tgz"
+            }
+        },
+        "1.0.33": {
+            "name": "hf-ui",
+            "version": "1.0.33",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.33",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-iSoJ8ZSsEkqVPnuFWUtnng888NW5RFK5/+LbEpdPBysJq3WD/tSlB8neP6SmrLhCkgZoLv4oVRRtnTAxY/tE2g==",
+                "shasum": "f4fb597745250710156c4bfef5c571e6488e8713",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.33.tgz"
+            }
+        },
+        "1.0.34": {
+            "name": "hf-ui",
+            "version": "1.0.34",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.34",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-ZPZd0rVb3Hhvvd3ZiJW7bLNC+i592jClXBl2W0AVNNOF/xEP9dch6T4k4kkEOB9jQA4iAf4bbXOSN6ehXDL0NQ==",
+                "shasum": "762496798b33b1ac76525dac4f29c70e24c59391",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.34.tgz"
+            }
+        },
+        "1.0.35": {
+            "name": "hf-ui",
+            "version": "1.0.35",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.35",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-KKY9oA8+TAAaTYquK7M/ExC2MYCg8mszj1uXOrsG+dsipkDJBZWqxglxxjwtSj9m5mmv+6QtXiRSXY93Kv7Qog==",
+                "shasum": "877e567e8c64d796fd572ccf41133885016ecbb4",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.35.tgz"
+            }
+        },
+        "1.0.36": {
+            "name": "hf-ui",
+            "version": "1.0.36",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.36",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-18YS8M6kle4wQ6Cj6MRSDuVAJCPpzrsZv//WtrYWsGiAVP/xgGIoBS/riauMG3/xH0APwAzc2C9sTl5wt84/tw==",
+                "shasum": "bd19c0a72b2fd8783e8ed78e712c749bb9f2fa75",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.36.tgz"
+            }
+        },
+        "1.0.37": {
+            "name": "hf-ui",
+            "version": "1.0.37",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.37",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-ihMEFCxGrJMOxELdzMaTn1POnKYV//zaGq0ZjQ4ntA0vKObS7IMQTR2NNdIIuxJjd4Tc4apjRW7/EQwzjLR4lw==",
+                "shasum": "20b3d37f49edd5cb9af9ed336a651d8a783174ad",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.37.tgz"
+            }
+        },
+        "1.0.38": {
+            "name": "hf-ui",
+            "version": "1.0.38",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.38",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-SAZDP07MhRhcUT/jQN5bpcdeINuUqymFbThN0pnc6OyTTKXHUVau1/RwalkVBjPssvgb7fbdPmfOtea0CGsbhQ==",
+                "shasum": "60cf287802f2885793a9846efddf55d3e9912ef4",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.38.tgz"
+            }
+        },
+        "1.0.39": {
+            "name": "hf-ui",
+            "version": "1.0.39",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.39",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-Kdq1I6A+RbQqkTgU0bKK/S7SKqiosTQ16JLHrKVeF+J6AztJJ5cHm6VkpTeDmPnSTSXeGm39G1gWjIpNspAGfg==",
+                "shasum": "6c9c54611346848f9934c4fae111e06d2986e7ae",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.39.tgz"
+            }
+        },
+        "1.0.41": {
+            "name": "hf-ui",
+            "version": "1.0.41",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.41",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-PbgItEtCecCY/u9M1j7v7JCVuZPZ6UMP+VN5L5Lc4dncav+aiYASPFTA6JswCqFfyBGJQlxxzXTTf2G9dfygcQ==",
+                "shasum": "a9b3b83a3ebfdca4fe2c2cb7bb7fea904adc3a45",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.41.tgz"
+            }
+        },
+        "1.0.42": {
+            "name": "hf-ui",
+            "version": "1.0.42",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.42",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-YJVp6AWmoxG0v9CVI3bjYkMZy5EQhVLqtSeNp5kTsNhHOm4TdXRYDglTEAx2FNoO4h/jLSIqCuH3vs5LT5ulPQ==",
+                "shasum": "48cadada76bf197ee2e560a0cbfa384ada2315bf",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.42.tgz"
+            }
+        },
+        "1.0.44": {
+            "name": "hf-ui",
+            "version": "1.0.44",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.44",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-Nq9OkG2HWKMxAQ6tBFGyBVJgS0ndIijeuAgs2wrOHEloN+e/rnNVAVnyUGrnoQ1K6tN1KdYo65wMF0MW+ZcBWQ==",
+                "shasum": "0afe5ed0ddd83b5c6025a3138804054458cefb3a",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.44.tgz"
+            }
+        },
+        "1.0.45": {
+            "name": "hf-ui",
+            "version": "1.0.45",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.45",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-oUYEHBWDK/3uWrbkOvYXWi9kz6KPcvKbYT0FsyBGvkK+2HDMJXYNKfgyAYtLHYhIidE2XDQ1x3zMkcC5VR6k/Q==",
+                "shasum": "01f44a2196ae0f46a0a45596fe7662e24a4be5b2",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.45.tgz"
+            }
+        },
+        "1.0.46": {
+            "name": "hf-ui",
+            "version": "1.0.46",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.46",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-KpGSNT/d8t4JIEpGdGoy4palUxYOrnbX/1y0M93P/NfwsD3toD+2pxcxBWPeiFhW3A7Gyfwj0wJzjzv6VH9VtA==",
+                "shasum": "0ec2b47dafff224e4980678c4c64fe04964561f8",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.46.tgz"
+            }
+        },
+        "1.0.49": {
+            "name": "hf-ui",
+            "version": "1.0.49",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.49",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-rey5PGgM8W8c2SwnhuJW1JOSXKYUvQNf3RdHXAMBhkjekbPakg2MCPkQzkhGQ8tfvPSUOoGcYkPKmmNRINbOzg==",
+                "shasum": "3d6bcba06ea69edf952e2773dba68a5b3fe9bf58",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.49.tgz"
+            }
+        },
+        "1.0.51": {
+            "name": "hf-ui",
+            "version": "1.0.51",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.51",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-uRqPkyEwO1i5jC6ckf/es2FJdkXSVrsGwlzuWP/7fZ//Orcy1dxnC4kWQ5cF9ODM/+aSZxeST9diteMiZ0eq9w==",
+                "shasum": "70cda099ea3e7579e6fa9eea89ff5c458b70a059",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.51.tgz"
+            }
+        },
+        "1.0.52": {
+            "name": "hf-ui",
+            "version": "1.0.52",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.52",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-KZY7EoVBin+QNVuQQO2gcUX8IAeIHKXjmDiGb8QxWbDw9KNzAZCRKZa3dn2gZkdThZBtVUBTGOA8fi6g5iyrDg==",
+                "shasum": "26a77cb7303620c5ad43db5442894274ecbf6a46",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.52.tgz"
+            }
+        },
+        "1.0.53": {
+            "name": "hf-ui",
+            "version": "1.0.53",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.53",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-SXpJm5uz93A0rkMGQkJH/40OT3voV0bg9O2+XoHtdn1mKXl6bEYN2j3lSsgw5qUZirgUuFEhEoRdHNyMhVdVhQ==",
+                "shasum": "ce893bc2dabdf4d166b7b7987ff3cecc3f3b0cb4",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.53.tgz"
+            }
+        },
+        "1.0.54": {
+            "name": "hf-ui",
+            "version": "1.0.54",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.54",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-xw8MOOs4e1EUvkXkSLtOmvhCV8vRGss8eCcRTKPJUbBFIyUwvIdiCRrWPZFlRE8y0SMD/M8Bk3/Q8bLGeM/+sA==",
+                "shasum": "f3fc0493bebf10dddf6e97f8d179dd4ece40cbb9",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.54.tgz"
+            }
+        },
+        "1.0.55": {
+            "name": "hf-ui",
+            "version": "1.0.55",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.55",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-ttrVZaBxOcbY4ZJKWxVEEbtEUzuqA6o8qt/QoMtR7AgDkr7xChsazpO/6glLEsSPG0tDDa/ElckTkK8VUzafkQ==",
+                "shasum": "62f804b35cb6e5d02a05691b8555144814935a1d",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.55.tgz"
+            }
+        },
+        "1.0.56": {
+            "name": "hf-ui",
+            "version": "1.0.56",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "description": "",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.56",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-WbgjEUH1UIobpWbvEyiNK3KR80r4ulWk5ThZNoH1PPw25ambK6oMI2oSdBJta+0r5dt4P6ZQEu/tWuQdAwaMmg==",
+                "shasum": "8e452d80d204665349c09e085eccb330b411fc61",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.56.tgz"
+            }
+        },
+        "1.0.57": {
+            "name": "hf-ui",
+            "version": "1.0.57",
+            "description": "",
+            "main": "hf-ui.common.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC",
+            "readme": "ERROR: No README data found!",
+            "_id": "hf-ui@1.0.57",
+            "_nodeVersion": "12.18.3",
+            "_npmVersion": "6.14.6",
+            "_npmUser": {
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            },
+            "maintainers": [{
+                "name": "admin",
+                "email": "changeme@yourcompany.com"
+            }],
+            "dist": {
+                "integrity": "sha512-EG8ZydZMaWdbj7u8hs7i9oyiKhzSBFs29eKwgAgWzSPtfASA+13FH3yLRW+Oqg2215tlk8QpQKaTD+KqkdsRzA==",
+                "shasum": "4afc38e752589e80f0fe5db24c1c26134bd2799c",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-1.0.57.tgz"
+            }
+        },
+        "0.1.0": {
+            "name": "hf-ui",
+            "version": "0.1.0",
+            "private": false,
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hangUI ./src/components/index.js"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "vue": "^2.6.11"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "description": "## Project setup ``` npm install ```",
+            "_id": "hf-ui@0.1.0",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-HPPwlUZVFUfaScr9ngyKK/atVqbireJDDbrBALC/gkBSn+QnUkKGkyNN00Mtz07feGT2Gni2rh1s+kxYzcFEMQ==",
+                "shasum": "c8d5be706795970e994bbd459e8a2d71a7c73dc5",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.0.tgz",
+                "fileCount": 18,
+                "unpackedSize": 26836,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCa+yCRA9TVsSAnZWagAA0nQP+wQ6Y4UK6QyM4N73p5gz\nWLM6VdOsKcLaOVq95OaMwJGGdoBzt7nH9q8GSALnVge4A/JBjfBMIZiVMRac\nRrNN9klaFzS/ww+jF3jqanodJDFvZxUY6cszcHCAN+RKKVfhWF3lz4FVIYGu\naSZum3YgEuVVyfD6TtN0MPjYv14Rj05UaZgva5VLDqTYXocEv0G3eSDIdzM6\n9wxdAFQ5r7q/LHGEW9E/08dvZjpGE4BF3iZM3FD+gy+3jnhj6KLCa+ODeV02\n7dkoVbiCPlZIUrFdO2R5TtxuLutMnla9eRY40u/seXiN1mEJLeK4Tdg+1sxu\nUSkFBcgfkShb2imsFNvqrKwhV72ZNyI5Hg5FHKeFMUmqrOIcNd8TM1T2IFtx\nL0DBzJR4FvGmSByn5gol2e66SV0VZ8qgahMcb2dZjmuZwZKWj34KnA4Kdmnf\nQmIuJnaK+Bg//dG0MS3gvyBf3p0SqqxY7z6/9KuGk5IQzgHcVoJ9waXk20Ao\nt3bEC/om+MZtbtUA/iHSGI37/nc1WrBSQL2ZA6LtVOPocWXZgK9yg1/almWJ\ndCl9aJbmQfqKP+aVg9dXSuUD4tclBmlmLTIm1IkrsOyTsVxSF0V9EytbcUP2\noXE/gDe78O8rCBRogDnwSjsuUNIYWcSbH8rfkIaAGjy+ASkMOubNM2jlkRrL\n2nKm\r\n=K8Y9\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEQCICuKvRUZkBlW8swXtn5F6Q3bH6Dmry9OZqgn5iNsDjUVAiB+uUKxqTxr7dTahjwRaL5BJx61rWe/qyuaDokQzGZZsQ=="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.0_1594470322373_0.04693468016295843"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.1": {
+            "name": "hf-ui",
+            "version": "0.1.1",
+            "private": false,
+            "main": "./dist/hfUI.common.js",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI ./src/components/index.js"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "vue": "^2.6.11"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "description": "## Project setup ``` npm install ```",
+            "_id": "hf-ui@0.1.1",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-0UAedLUPhzfboRjWS9VwKxyVZt5/eqPRq5LD4WH+fQ8QnM18YaAtkKDD3rikVGsm7RJTKvBYfrXgW2vZj6OLHA==",
+                "shasum": "f53a2ddbd1ef1218af2bb0d2d907b67816eed6b1",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.1.tgz",
+                "fileCount": 18,
+                "unpackedSize": 26865,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCcibCRA9TVsSAnZWagAAZ7EP/3kB6fbWI/VkBbInuIlE\ne36heiB/v9hbAgidJqk85ZsyBovgRAblhhS6VzlWDxAUhj5M+CZBWTovmTYh\nx9kwCJPZm+P/0nq6p7nFkaI0uwrpP1EhEXoPoMOZxW4cKoX/bBlw45fr96gP\n+YZlm/WhQ0yik+AeG0QipNwTl9d6JB2a7J4PqBy+KOCjNQBp9xTydR3dD7HR\nxydBaBpPRaADkcecedSqCoVNW4JFgwjM9Um9Q+M4FjiZ/VOS8VSOqNwG6eZh\nKmJCIwcs4/szlcNpKQ9P/qXwAkzCUl5Ww9Sz3zHYLWr7/yDLHY7wHf2QP6dd\nnsJD3r7PvWG1KaVr8jqGmplH4MH02Astvcqt/Ka8M4b9rSewcG1LZhaAJlOZ\nD9SKk4Dm7G86cyP7kZM7pe6GNcwgfJLhw5k5/oi4OL/4mxd3vLCcUWrmlbRa\nsgrCXfolCAFBcsbC4GLFTb1PGS0M9OXsdb4jnqGKm5N3KRybkpln+A2xpzXy\n+NNPO68Wyu2dEO6y/CMG/YxTlk/D3mH1s9g8b/chtmVoTSfLOIiB7BrV9C/Z\nSbGeLUG6GkpfLB3k1LVe5OIBijzxGbwnv+3qI9AZfOK/TbtYJADi9fxZ/QYt\nlsb+6lj9KgOpH4io0Ia926R1rkdIcdvNPkagYqwwumTaGAuXGUWFCCGbww3t\nq11J\r\n=sV+q\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEUCIQCJu31BTtvSrt/D0ZVdelQj9nqs0T71boi63+a2012f2gIgMWwgwE52fF+jwMiNJIRS3tTWP3SMJzFbauDqn5z8qyc="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.1_1594476698605_0.6530520916795413"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.2": {
+            "name": "hf-ui",
+            "version": "0.1.2",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "./dist/hfUI.common.js",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI ./src/components/index.js"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "vue": "^2.6.11"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "_id": "hf-ui@0.1.2",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-Rlji3GTtV+/60eTJ/aAyGitqmcNAxPSjMwdHjL90ugIrVnhbInk2Wg9mFO2gxQqfx/LaYaI3fBPys0c/mhMMhA==",
+                "shasum": "56bdde6c33551d0725db5454dd64bf2894f33ea2",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.2.tgz",
+                "fileCount": 10,
+                "unpackedSize": 1047099,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCc09CRA9TVsSAnZWagAA2UYQAJzEGZruMCf1Gtv1OYEG\nouCkSu6JMPBP4px4IpKaXdO9qayj0sh+rqLlaQF3WfKi3XNbFoW8YmVEoriO\n9PxLeF1cIsR+stVnOJBF/O/8muyHN3mOGgpXgWC9xSEY4tDUxARj4fR+wOEX\nr9DPSo5bFT2UuPny5tqeeHLTDo1CZ4BcJwNZICiKnJ9bOoF07TUUZwxkee8k\n9yCNFjIcDtSXLP1wMN7m4zxfI+a6FdL9UAhKpFd1D/UuTAVSx2B7Ed4KzikZ\n4Shr8exexaWWFoR/cEr7ggJeuVHc6WWTf+NJwNoAVTtY/zmmTz+1m+gtjw2j\nbYb78L2d6jTe/er5NvawVAGAq2IzKQK7878L2Z2J17CAk0JnHzk4ZTyP8gvK\nQ+hbjKtddoi3C82+evvJv49n6vbAH/IqTkIhGkFko9kqcsGu56zqpyX6N8Ie\nEU0siEPW4p3eNo7EjqV9WpRXdWb7BEGdowaYDU3B4tHdlXNnybud03+DlsJo\n7mj4jjROE7kb84Z0WD7qXdiT9oneFJYZrZoH4Wb6knKMTz0nBceINs//Jtbz\n48+5ncrJEeUwG1usnLhbKosnrx/y7libH4Nm88Uw8qCpKZ3bKQutbLBHvOTU\nOki4M3Y+YUb5JhYUySeXRQbakyi2lgdtJF7m4brHxf3HqZZzkRjvnP+osV+9\nXF4I\r\n=L9OF\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEQCIHeGYLGZBSTw/loUej3v1NjZR0ApmwlutgvvJzVvW0N+AiAHSC0Hc/gTSgrnFkBS0mvIaLuEuI9AjIjSzfS83rcmMA=="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.2_1594477885325_0.5446252727593122"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.3": {
+            "name": "hf-ui",
+            "version": "0.1.3",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "./dist/hfUI.umd.min.js",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI ./src/lib/index.js"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "vue": "^2.6.11"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "_id": "hf-ui@0.1.3",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-yjO4sIHOs/lFP6se9IZv4chbgri/qDx/hZTaSMS+gZr6lNUs8vhwQLrP2kAe3tu+xK68cAwHEl1Xr4W69OVh7Q==",
+                "shasum": "324677a791a23d26861cb1dbf1d3ff6f7691ec34",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.3.tgz",
+                "fileCount": 9,
+                "unpackedSize": 1138599,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCdIUCRA9TVsSAnZWagAAh6gP/if28GIBWNGIvdHWggH4\nwIWuhDw1ucl/Bf0704Kf3eCmPNPFGqhIfHQjwBOiDg564FLbswMbY79USOE/\nnfzS8IFwSPTT9bl4okqUMCFHlkj3p+ViBIJUcEIvg0k1WIJtZvcZU+71GkXO\nFaY34rqkqX7UrlLnMU2PbHfPegvOEKPvsh/v6vKami2QpkAQpIhMrUGwuBYV\nGUYVhjrdvS++gg5YU60Vn4zh2qyimbRABND26nvsJa7zURLXhrv1c4YzBly2\n9VWzpyBw7PNj/bXmYO99lI399aaw/WWAVIW6pw07TnXK0WSyKbDxfG+L4p1a\nCa+U0I/If0po/c3S4NjUsrqSQ020SpqPtdPy+3g6exZuPbT63uJH5oRZEM7g\ngyzuUxQA80zYu4Udtl9kKxpqltKmSLfzEB6e92Xiyk7bCOevCUZ1rP0oCFjF\nwyb9GEQTLNQcxzQ65Z4SgMoGRvZiDW9oWInKVlYZBqc3lQAsv1wPIrLBgOkn\n1LewP448matMTjPKt/B5MsHG8ZixneHgsniy5KEktTpLzVMTFaxf3MVsFn+g\nC64XI6ARHHekZ5KhW0u3dhp85Rv3GiUI4PiTDGEAjRzMVOPP0E6l7fMW1hL6\nH8M+Vrajghhdiinm/OXUv4ylyIAsZudoxU8uHcF3Qgxcd9ovtvX5hVynOc/m\neykm\r\n=Vz7j\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEUCIBxW+Ltj4hED6CKznJj016VhPkbubfkJSUes5PA7d0RCAiEAjMd40IT4qJIUTIrOtX3e0qWbuKJR/FTua5TkekiQEh0="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.3_1594479124235_0.7519810973618053"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.4": {
+            "name": "hf-ui",
+            "version": "0.1.4",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "./dist/hfUI.umd.min.js",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI ./src/lib/index.js",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "vue": "^2.6.11"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "_id": "hf-ui@0.1.4",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-uB+LQK3xlyC7qw5A3zTO0BUka3+zoexbhJEPec93bc4AUrHYMc30hpuCyGnIJl2x4rquwfsqlHJyK4D5FlmBQg==",
+                "shasum": "ebf6c41f0c12fd4a0e75e8d73a75347daca426f6",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.4.tgz",
+                "fileCount": 9,
+                "unpackedSize": 1138646,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCdJJCRA9TVsSAnZWagAAkjcQAIt92+7/1uGKgmPTWdXK\nmSU7nXUX71r4W+LARMXe/KUfKfBBjL1I6Y/8xKznoLLV3jYX8hBYFeAYHqut\nLQ/WFvxLDgdICzmNV191fcjPG+CiGOQBWGaOJwZHEfRaxojgyKoxfN2znuxQ\n2ub8ALOmOlT+gO+JZjHzOcfPJWQJo5UR5ee7vDT9RSIowLh8Ygwx8+0cKsqq\npOqmx5c+MqRTExXCZ9Egy11qzA9epQEcrmIMjVmm7ojTOQpA7QBFne9OF+9r\nvIgmZ71nshfxfDqFIfGqtsBoJWYBh11ara09PnDpUviZbWX+xDyiEYkQ/Svt\nhmlxyH6XTcZUkcNndvGt+ldW0k/GMxjXmOWhBtm5mkDxA0Yi5l9rGQlKZppK\nbfCje1Aeg9aiiGbyHWfaw5OtyeimM9tSdxUZCMHw23Y7c9PrccZXSkZmyT8Z\nK2RROaomfPtbKCnSaBTde2xt0iErWFmLJON9CNportnjIVp3q1pEy8bQ/bXG\nt6wKgpMKALEGkc0RpoINXwT+KeUmRh244JNK7z+Wv1PxX0MtYM1HlQDhfnL0\nmu2nztD8RKN1zpF5NCwD3RzivHp+aqf06mvQ8k4OPf+JWAU0KHNCO834FL8i\n3K25JdNNgC3pKd50x2GcMQRBSbeq2Vv6EPOIEr2q66Gs4qz0JWhRkOEuEjGP\npfhO\r\n=0mi1\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEQCIGcmjYHp5SLmhuv0spYj0axX091+GfBTktpNDFDGa6NOAiBDGUcogdOHRUNtkYGnUsSKIIZlY8CvfSYO/yDs9AYj7g=="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.4_1594479177512_0.44105666797265153"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.5": {
+            "name": "hf-ui",
+            "version": "0.1.5",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "./dist/hfUI.umd.min.js",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI ./src/lib/index.js",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {},
+            "devDependencies": {
+                "vue": "^2.6.11",
+                "core-js": "^3.6.5",
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "_id": "hf-ui@0.1.5",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-BsB0LMWfgsKxydyvIfEPha2fSReDEcxt0ktmpfLeVo8nosX5fXrA53vXwr0erR2NKBPT7xX3Y3z4LNI1x8YQiQ==",
+                "shasum": "e80d9372eb719e6334969f6f77100b8cc700709b",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.5.tgz",
+                "fileCount": 9,
+                "unpackedSize": 1159046,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCdW9CRA9TVsSAnZWagAAPEkP/3eDrwa4RfN0dBtNYLPS\n30Fbb6rpIoIRo5v5wxphHCalMAGI9KmZdND1dmtnnWr8xou4HBrZ9dR5r3oi\n0O/1CmEoZAUfY1H6gz5Bi7wmqs7YnQmoTeMGFSQqqkEIDoQgiPTA4gZjY6QW\nkOIEr5LNRhWb9iJfrEOK6mrHzUuU/WgNdqbYB5eFomxsFzqifYtqS5wN3tte\n2sRWiXfaIZ5kUxb9V2R7BOAC979ZvVcWLOlpTJRgJU0tameha9qjhtznGb2C\n15Y3Dp5i4UGNCJaEwLT42xKtOYim+bkk6JCn6VIWpdEr+aLO7UhT+2+lwiZj\nfriamtQCP1wT5eEdWYHHbGmbrFTfr/dS+6MKEg0YO/ritOrdmyV3E7VeIScf\ne42vhz13H5acdTR/bxFxIIpqWyyMngmFpB74zwvsB/mRIgF6zPVfSQDWG1KK\nB9ioWR8xZUmx8GrQ7n82WdR9fzQDvvvY/58foj02Qh50zEUEz1J6J/FiViu7\n2Ndi/r3SVhLjfKJUEnyqR60RDaRvn2BiK3NBdiJmIIodM6ez2dOd1SrIcjcu\nNTR8u8tr3TUHQuLEXpxT4P/UcOo7YoMC+x/BVQ1wwPJAJt8T3qsaItao2uVf\nfE+VaPLIST6sxj3LBkK4uUg67n/DbMZTf/GMv6MCOP81tAappxTuxcHxgbJA\nUyr+\r\n=DcO5\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEQCIAL5qczFxt4EefND3G67l+em8DAVBOmL3xqi5enGICBCAiBG4sqdktZ9fNs7Ld/df57qETntozJcBEe16tfyhi8S6g=="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.5_1594480061465_0.6189655359974215"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.6": {
+            "name": "hf-ui",
+            "version": "0.1.6",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "./lib/hfUI.umd.min.js",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI --dest lib ./packages/index.js",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "_id": "hf-ui@0.1.6",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-HsOiee7qkyyh+9om1IH6QNL3O8P8QaUc4PPq5bJEGAXctqzqYXBRwgvzl4A47P2TT6eP9Y8wv+MXKjJSuH8sgA==",
+                "shasum": "37cf9e84384c78a4fe97d88b6699af7db2f320c3",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.6.tgz",
+                "fileCount": 8,
+                "unpackedSize": 288005,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCrhZCRA9TVsSAnZWagAA0W8QAKL2jCBRfWn1w8aN//9z\nZBDWr+YjE2vc5C2/uyVF19Oc4o0nYeVyCFquTXO/ihoYN0BK7IKkmYK+ylz9\nUvX+lqNknSl6SjDOYygv1qlmnWIVUXCiR/0xMgni8DGLqNc3djxoolytiQgC\ncqWX5QTctsvqvTFzHDp+Txvcu3pYcDggFJu5KeamGM/nCKHPXMOyBc6UVBSl\nfEUjtKuKC3edlQsrqOQ6nMTwtOsYKtJNKCEGCfetL+4D0CWvkQyBdhhQOMxo\nDiJwOXrq9JHULRTpuF1QUB2sn0Z+7QNQJKv61JYT6wa3eDcRiNM7bmeCJ4JJ\nviCUKfEVsmpN9kmdPyVxWBV8HKVPxJ3cccw2VIDZjx3xVUMm8nIHAnQ4Wjy2\nlW/yUUiA1dJpTKGnWcYhRMQ8YkEd+bOOZBe7zrraZMiVjnrJUQpBpZ0NyFnZ\nJmrFeUcz7vq1T/tvulXNAL7X9SgjZ4U3rwTnGm/FQV76BzzYp0TWINaJjyMk\njOGWlBnRx1DrGiRo9jL7n42YX9rrCdzoleq+WCVambVOypJ95xP/6EYTfoUP\nmrBfD9u4txe5+N06AVbVrJLySQgrYu2E1ZxmsIuonUgA/VY4NznCqV9czUr8\nhqqCQunsx7R0RoKV7ZFcKQGhc0GfZZBlHj9oO3efBkHBwsnc00lBA/btDIrL\nkkMH\r\n=wcyQ\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEYCIQDsIS8/1qrYqmYzBI2xeyflt23GJbiy1YaEFXewhSfWtwIhAIVpnfUnI+E0qIiZ93GA4V2gunPeZTeKm0ZAMQP1Cu5z"
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.6_1594538072953_0.9256989427974158"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.7": {
+            "name": "hf-ui",
+            "version": "0.1.7",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "./lib/index",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI --dest lib ./packages/index.js",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "_id": "hf-ui@0.1.7",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-TDa0Oq+1x8AC2PSfRkl2ae3tvjCw8GAhjwrxAtsK/o2fGJYVMZMJygF/F6w4DIZ+px71Rq1u+eBBo4hqkDEQAQ==",
+                "shasum": "1cd5036ed16c646631356755949c8daac92c83df",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.7.tgz",
+                "fileCount": 8,
+                "unpackedSize": 288136,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCrnoCRA9TVsSAnZWagAAyLEP/2pCVb3u8aBvHb5bQ+Re\nhBDsw3kwrRBKuAwroDirF6BjAAj6z76UFEvUoJhzTs7dKX3BFcfgIPQpMeIV\nrbKJBF8j3RNBhpdbk4PL9+z2D5LloXTwYgwjBVdW6YfJ0Q4AbDZHexnRcRGM\n5i8Vvjxl0gBS4YH26WGYy9DKgWVqJC//NW/Vu6ND9ULFaSXtaZ4Eox+9yy7M\nAXBbePFnK32orKRtrWPIpOpZb7n8YGWWdHzPxkQTj8hU2g4FMpP5fr10KQHZ\n8rgTIWeIyYT8i4CKp2wMeBwWo+LZcJt77EDeGKS/YE0npMlbem6pDLkku0AL\nqlNasEy4T53XPHlJHEJy6sw6c3P6OBqR+B5LGwsW29Xig6WRk8UIZ9Hvknqv\nKgrqRirokNz4UlEVVDulUrA3alIXJyi1Aj7QlWJT5vv5vIWpTaAEt6zMQXBT\n+N7PTC1msu2arMHHhK5/zuTIg1hgb7NyNkmB33lK00IGzapOu9GgYWIX+JOl\nsAo0Rx9zJCiDI8y7acQyMc1pvv83G/TLtFvGdi2I6JK9VqWT+uWeBtZbLD5H\nNMg/87cHP8OLxtskqeMchuqZk/EqKoVzhIPKUskCevAmA5t9uzwk0c5xvmuk\n9NOKu25098x2VYzLE8o/zujyFZOBysxfRvR210J46Q1vna6avUeMZGu1ivUX\nteiF\r\n=GwYk\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEUCIQC9+kDeg5vGUOk8JOop0E7vSEfNxRK50NMQTc20KkL14gIgLJ2fjaySOvyJ6ZVr2AzySZKBZ+tcAv6u/Jn3vPrs78k="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.7_1594538471586_0.5046746418229293"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.8": {
+            "name": "hf-ui",
+            "version": "0.1.8",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "./lib/index",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI --dest lib ./packages/index.js",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "_id": "hf-ui@0.1.8",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-7ZoMRdUrjRgyIu5Xl7Q8WznIjO5cVa2lkJ4XnqQ6w15E1uIj236yvABU/c5HuU96WajE3vnLJ3/LqYwn49LG9Q==",
+                "shasum": "fb5af6197f7fdc639774db99a797f7316110cf37",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.8.tgz",
+                "fileCount": 8,
+                "unpackedSize": 288136,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCsEbCRA9TVsSAnZWagAAi6cP/2PMSRvHuQ4dd+lpwL7z\nkG+y/YcKiUFD2XeHbSIrfVj13hdiGCewIvQM71v4FUSkneCwmAwpL5GynE7K\nt8PPuXEb9U+RpS05hoMX5h416cwi0YMB/cagCiQ3MI7I5HBLq9XHSCvfDTJ4\nLUXFTResxTa8iHXKG6yIw130dJhh3bN7FmEl5OAosns2sIJZFZ9WEeMvpOsg\nHWTuzbEd6+Tpj8ONBJO0ytTEGJX+9xxbVVHJgkwWNpTP32+2LxgNRKpGc77y\n12RZlz2DCPdDovXd4pmWyhhXYF/Os2arMnMAT+oZyXTzvc0SIHREO1w09lwE\nJsvpwH36ymm8oE3mDPdru/KpEdEDVWEE+1S3PmNvKrue0yaLjTDpw5qxQYM3\nzjizOjh6geddRLAMj3Bh6Qg4RMnw88qP5vukcs6K1FIyoezKW6YEzjbwcHA6\nu2mNW7GWB67iBltbMnkEy7/ml8MjHRPpTiyqlc8lxzD+q0/7oZpkG0VqnDhD\nGjQOg0UmnJxwQu2VYva6yTp6JiIJRFP/sWr6JVASGT4icltAFlaDIRa3pFUi\nOnzLvkmBvuyGxmHQVYWR+yd1Xo6apj6yyguHPPJGISvTUNK2W1bf7xh4K1rC\n4O3rx4UtsyZzsCRTzGZUc6mDnACziPyPnClrL9vAeGeS0vsyi4wufRossjKW\nFtdP\r\n=7klg\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEQCIFLmjGB1ICPaLK5UhgVp348uyRetcZNVZwppkOv7oFmAAiAnZ9Wi95rXc+lhvKsnTCQUb4nz9b4RtESRRoUNS/28EA=="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.8_1594540314836_0.9204637690964701"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.9": {
+            "name": "hf-ui",
+            "version": "0.1.9",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "./lib/index",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI --dest lib ./packages/index.js",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "_id": "hf-ui@0.1.9",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-8Jidrk+c7+sAPDXtuKQ+PEjVjeckAhKftXqwKgwdmN3NwUnV6GqKbnHqClYz9HhtR8sXWaRtQb1WO+hSl6Yc3w==",
+                "shasum": "ecf6c6167e872072f4073cece2d94710ea26c100",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.9.tgz",
+                "fileCount": 8,
+                "unpackedSize": 288136,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCsHTCRA9TVsSAnZWagAAgr4P/2Mw3Hvcz72pOWmNLMS0\n61R9HoL6vCU3lgbNuNfju+oIdVJIMLCdOOSp4BomgiEFUa2fZThdy+rRfTjC\nNvwTHBcvJ+8wU/pjg+tGfbLRk9xZf3FCk0gaocrDAfk5aTRAYDq4OCyaq9NR\nSdg/YeV8bd2MJFhAafyIO2BpGqa+IRi9MTn/Aj/KbVj1wJrT8UWy7CshuubO\nBtIJAXMYdP1I9QzwACdqv7hPxU+hcxhB4w36yi75ZL6/+UZwiil2P8PGe4a1\nEZhqer1NH7NbFpna1bveoM11T2MCcfG62K1CdKZ6Jfw4pRLr6Smtb0xJtDld\n5tnPGT9WDsb6ZLi7uFIjUwuI52X38qG6P/kahz/ZPQDxxdHOXvYyNtVX5alE\nuoimOz6cVCWBfWGpfkYeCkVNhzwxRT4JYm1JWymTp1GV5+1rpyM71kr/5doO\nWTK+4rBOg6ydRO8BIXdeZlHBL8UUN4dZ8+mBNrezCewgm/xvcOqt67wjJoyd\nepd1hn0+sFN0Bl7L6lZQmMky7JLS7cp5Ha2hHRPTru/to6dJZrUObg1o+oNQ\nrkm77sQgG2e/b5oUISSNSHCMEPACbRnk9wvdH8qhSYmujJ/Gsg+K3jFvbjaC\nqYm/oA/kELgguKIco1XPDAIpSnRHuge4UD3zh+BUzlea2omXvqembaOK5W4I\nDjGb\r\n=8NAo\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEYCIQCKtdfLdngXxNkJsEipTnlo1rLIdxUo0ZnyJ9S0RKuQvgIhAMSyog8BV2LwJrF5OL1hRKpUpy4HMhKlq+UYCdfj6O2S"
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.9_1594540499500_0.25368256753611473"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.10": {
+            "name": "hf-ui",
+            "version": "0.1.10",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "lib/index.js",
+            "style": "lib/index.css",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI --dest lib ./packages/index.js",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "_id": "hf-ui@0.1.10",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-8IlraPyiM2xrSwjdzgWF0VuYJ50TBQZ4UJSeDke0mjPDUfUjjqeQAQvgraW3b5OwO0DWy4ui0FrtWih6X0idZg==",
+                "shasum": "52ceb73d7219078ec922996bf55d5274b3691937",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.10.tgz",
+                "fileCount": 8,
+                "unpackedSize": 288166,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCsMVCRA9TVsSAnZWagAAlYEP+wVBH6aWS2s8PkdMi0Jt\nulEaCosTIdaK+xXuAfTYFrmeYM4Ho6oKKoHsNXxss55bmM1Q5ljd4hXHPqMM\nx8DIwfNYpPxGe0nQaEHhppzaB24j9w5t8ZtE+IijA9nISb3IzOAvv6RPV8/f\nPJi9kMcjikDsligFrEm+4AZzt08XsjnYDo1XRUqn1G2HbYZAVZWOWQyOHD4d\n8T7ocE1/GuaDdyjG/cMhM5cnMNrJ2eyxy46BqC4ZMRUYpE9UUgmqYUZf1LXq\ncAfsHcwNXXYBYsH7HZn+wefdCRfQFPtMqraM1qqLFwz34c7zhdd/XRlys/pg\n3dbZyGoPbUMFl5HCvj6xGd2jdeSzavrJWKjYvvynvXaQdN6+PHC6FgsnSq5F\nQCQcRnfubG5jUaHWdKhEOq6la6u2KqxHjNYKWZqUu0cMVyMhc4qouG1jAwmq\nuQ9Pd7N3DXrrN1hmmh+rys7DNjFZSEaGRu58rl50F8G578fUgRxGR8k8rRro\nx+gl5yuogaqrJWP0Uzvlvc6LbejpiAO+pH8T4cuammfD8xchpWs0HNkdBlWG\nMfTqrG+htAWBTHh2ElGw5C1OI8E6i7GOj53zjLQb9ZZlkXKqmtbP2bKX3EAb\nDU4oMyrcI8nrE3St5DqFH5FE5qkLy1zLCC0Nq0LPD/HgOhesVt/lxzxbdGZL\niNnW\r\n=OaTi\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEYCIQCOJWErEym4YiFAexlQJPbb2AfnDZpoDdNlpBlWSiuFfQIhAN5WmNnwItxaI4+wn3fi5kz4nipFxkiVshndJFimDHCz"
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.10_1594540820777_0.14476410721362787"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.11": {
+            "name": "hf-ui",
+            "version": "0.1.11",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "lib/index/index.js",
+            "style": "lib/index/index.css",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --target lib --name hfUI --dest lib ./packages/index.js",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "babel-eslint": "^10.1.0",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "_id": "hf-ui@0.1.11",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-EM+8yVutc5/FUGh4R9K/Sfgbe/Po3rlrjU6iko8YGbUOdeplVLI4Lssk54Bphvs/xeUwMNQ7dVAmW6nX53gjEQ==",
+                "shasum": "052f20fae4bd1fdacf527bd01f08bfbfa34092f5",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.11.tgz",
+                "fileCount": 8,
+                "unpackedSize": 288178,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCsZBCRA9TVsSAnZWagAAEhgP/ivxjCe78MDtQgRZsNRx\ned1Mm5jUojIvYXbEVvIWweP7vMkAqpwZKZdKc9JMdRsvf3kKmrj/K705Qo2i\nZC13UVOb2+DrgUcMXAN7EbbQkKeZxqSlYBsy1/dhc3WrLDusqPlT6LtoWESy\n3aCqXzaMl2b7mzfN7tXwzfgqeNnp6NyrhXGQTCoUsVEt1/7OiJbjjugZwoH3\n8rLil2pG8HMmpIE6MIXElyVA0B1T/73OF7ywVCz26ZRI2jy6w5YFeRI2lvM+\nd/rg9jPZ+AY2BE+Zh7pvXMPoYlS38l0BGPu0uhZmtJvtAQbEY/DO4qUYfr3m\nLzHnrPuCJaWJyia907wh6O+WedauBu9+b+O0MrRoObwW/0R4Xn5OLpfU/d9M\nyAQq0jy9gmY0xFCb+kUr0G7lytsmFcX/FExg8xIjY89oVuiF2aUavcMY5dQK\nSU5OHGDMv62zp7dt2I8jA908j71XajvTJ5KgIClI1JBCe0QPyJg8GPUlOXVO\nKa9EmLpm6WOtSOsIT1TIJYwcw5Ge/j9cuj80NYASr5M37UIHqYya2+40sMDH\nGDL59R32nBySbYeWO5+zeL1wAgottNWcuI7j4lEQ/jEVVs1s78oT2vU68eaS\ngd+DD28QaPn8QnXWOOft2RP6soo8o9AwvaUTvxu+Mf2t6o6fccS+UFCnI1QI\nEE5T\r\n=VJI3\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEQCIHWBKD/HTZhNOICJ66RzGAInh1lisTuAHqWW7QuiuuFyAiBfRLkWDBE6KNWZfziydz0gwyUuX97wBFD7f0vHSctNhw=="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.11_1594541633204_0.0021731827995834507"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.12": {
+            "name": "hf-ui",
+            "version": "0.1.12",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "lib/index/index.js",
+            "module": "lib/index/index.js",
+            "style": "lib/index/index.css",
+            "repository": {
+                "type": "git",
+                "url": "git+https://gitlab.com/HangMine/hf-ui.git"
+            },
+            "homepage": "http://138.128.211.146:8888/",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --mode lib",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "file-saver": "^2.0.2"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "axios": "^0.19.2",
+                "babel-eslint": "^10.1.0",
+                "babel-plugin-import": "^1.13.0",
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "highlight.js": "^10.1.1",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "gitHead": "1fd0a945ce866507053710b35661535f463b279c",
+            "bugs": {
+                "url": "https://gitlab.com/HangMine/hf-ui/issues"
+            },
+            "_id": "hf-ui@0.1.12",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-xWOU0kSab4+aLW2csCeunNsiFuNQUyLNkWczoc16Y9wkdLKM66Z7oTuC2BVg6db1mBr6/MHAR/aHwiyyRmVivA==",
+                "shasum": "6fbbd3dbc3518e8a7d4df35b2da668d7254e164b",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.12.tgz",
+                "fileCount": 49,
+                "unpackedSize": 511397,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfGSR5CRA9TVsSAnZWagAACDYP/0HLQTxNjebRg9QcKhGG\nkKHK2bfawLjAc/JnWpxTnYu+/GVIhHF+R5LNuartD0MYl9Q16FFFjUTdeD3L\nVtzZhpSZKz/JxIr1aP/eFSAGJxFfYIFgHYEdS/pvIvoizHqln1zidnsnccg+\npyQdsrqqKjrCaJUE0yyt7oHSd7oZZtGyHL2/X0C/UHTJHej9BREVFaLRBLD8\n5Vn/Z5QR0pgthTK1g6mX1tL43oXzPdOEW7OsAlBP68/zLXO8s9wiEw/Ub/GU\nU8kCCdk0/XEoryc3tPUsu2JhnP7IPJyh6alHouFXJJ1EAQyJ4ej4Qi7CnedF\nwls/K3etm+y8z8X8FL4+CeRs1mIzAnkN5PQuC9NfaOAk5Qc0MUbrEMae8X3P\nDqexWTJzqnrVQXrgiDwQOaZlngWRydz2qhshZZvzSBqRRQiD5LzFux4F+xhE\nFLA/If5Znc45Z4vpaiy+wlcG/lPESantcHfO7DgT3VY5eXjdqH00Xwgt18Be\nu8WMN56qV87oRJcvDaMembIxq8r/KPjFTDTFyce/ydDvpAyOGZuvoMY85HzI\nDM3MtsoQ2K2LxFRylOzamj6js77jrXRV/3bTBc/WAFSFqlh6gmelwJ1WshJb\n7FBq/fH1M1Uy3rYoDQVt1X0/AWIzMjFWa2SwfyV+TiyF1WcfVOKmbb1F4+di\nYvSn\r\n=mv2P\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEQCICaxHg/lQsnBykUMOfuLOLTEVl5K9tYjL0oerr+taSbLAiBKHcXG5QJ+UeqFQIwOG1FU9UQrkPs+RRXSBccmskyNxw=="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.12_1595483257415_0.9054507157196947"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.13": {
+            "name": "hf-ui",
+            "version": "0.1.13",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "lib/index/index.js",
+            "module": "lib/index/index.js",
+            "style": "lib/index/index.css",
+            "repository": {
+                "type": "git",
+                "url": "git+https://gitlab.com/HangMine/hf-ui.git"
+            },
+            "homepage": "http://138.128.211.146:8888/",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --mode lib",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "file-saver": "^2.0.2"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "axios": "^0.19.2",
+                "babel-eslint": "^10.1.0",
+                "babel-plugin-import": "^1.13.0",
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "hf-ui": "^0.1.12",
+                "highlight.js": "^10.1.1",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "gitHead": "e08e306ff4ac3e3c51304f558c11c4b17b8cb8fa",
+            "bugs": {
+                "url": "https://gitlab.com/HangMine/hf-ui/issues"
+            },
+            "_id": "hf-ui@0.1.13",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-E7J1aVM/hrtAfJZPWpva55aCbBdoEVoBg6GOPfKB9yp/fE69BGrimGsURfFEWusb5OI0qUB22ZB2CY5tx8UR5A==",
+                "shasum": "16daf8eda8dbb4b638d6ade1e96c6d6f653ef2b9",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.13.tgz",
+                "fileCount": 127,
+                "unpackedSize": 736177,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfHSI9CRA9TVsSAnZWagAADusP/2kgQuZFwVfAw4+0nEt+\nWHKqhWiKH/FAdFcBiyYRGMYm8YJU1hjTHjlg57jUR0kKplz84UP8qWRJ9Qf+\nz01hSWIETYWTDuVb8VyuAjOnaP8Ulj7JkYb+RwPnNbiL28/0wf9QVr2ydRb3\nJiOPDR9MKx4vRmfp+T5983SeVFRoRkr0D7yTjn0zVxG+gcwa/jm5IXfR5Vvj\nhJmRWmErktdlrxYEK+29BLCPlRsvtvyNyQNGHTPNqcVRDO06gdHW+nFMu6zg\nBYXZdQuzWR5WtPkO+6XJcykxGLS4FiW6Z+v+Q/KMxbszyX4OynRbPUJAC6Mi\nVwKcE0yPCAwz9DBIPt7aA9BxMTMZIo04pXO1Ev8KBFF+ZtUjOjqaKbH201Hx\nNMkmhGFaNsfUSreyada7INh3Hbs44OVnA3U6O4+4YlMEA3haTgYYDiF6qeXY\nVIdGCdnBmJcMG+OkrYjbHEzdYbdhdwO8A7QCLLgapz5Ei9LE+X4wtA4UZk4j\nSvSfIG+wmeIlMH7PqdOWLyENjZ8XH1DdkBDRR6uslWC8RoQDsNdn24BzADVE\nG1dNTXeycWnwwAuRkcVTSn0UIPe+PQRIpmMpjsJKrjhGaJDzz23SnWyDbJOg\naXQroZE0IRskfK5ZEc7Dt2JYNOnyH6j2KV9yO7jdRhdvH3t0bi8pVjxG+Hln\n40DT\r\n=XR8J\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEQCIC7BpqZF/WqmytWLXmJluG3fGAFMWiED92w0WYOGWo1NAiATV9VIWoBjfeOG3WfVS7zOw34VOGkupXAVc5nuB25wag=="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.13_1595744829223_0.056164547340521453"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.14": {
+            "name": "hf-ui",
+            "version": "0.1.14",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "lib/index/index.js",
+            "module": "lib/index/index.js",
+            "style": "lib/index/index.css",
+            "repository": {
+                "type": "git",
+                "url": "git+https://gitlab.com/HangMine/hf-ui.git"
+            },
+            "homepage": "http://138.128.211.146:8888/",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --mode lib",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "file-saver": "^2.0.2"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "axios": "^0.19.2",
+                "babel-eslint": "^10.1.0",
+                "babel-plugin-import": "^1.13.0",
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "hf-ui": "^0.1.12",
+                "highlight.js": "^10.1.1",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "gitHead": "0708008e4a395424b20b4af64cf6f8f543e358a8",
+            "bugs": {
+                "url": "https://gitlab.com/HangMine/hf-ui/issues"
+            },
+            "_id": "hf-ui@0.1.14",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-xCRD9wLSrCd4AJI2ewxwcOIywctbe8tlEDuDMLuVwsAno91kur0OSDeFlnEAhFskIw06q38bBGSPHEzm5m4YrQ==",
+                "shasum": "908f42c5ce90386ebefd64595ad35e4571008195",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.14.tgz",
+                "fileCount": 127,
+                "unpackedSize": 736177,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfHSJECRA9TVsSAnZWagAAwk4P/3qg81O+xZh9tPmTD3aq\niPamdVSjeO3IuJCRUeGfhEuI341cua9GtxaowtXYF7cCQa+ijfaUVPfLPr+k\nSgWEO9CVCawXrb+q0+fdmg/RbYUHfg4cfOr8gRlJivuao2ZK3lqrz6+pzbJV\nejZEZ1epdWH3NXGsxo1XqHnKPgtaxuVYwmymkqAuotGf4i8djFVkS2kKmm37\nhslihcpd1J8ijDaDQfgKO9EBIXhBkeslONdWy0FS8RXNKa/PF6+SjCi57Mxs\nIRtTzjs02quw19ECvboj5GQv/yeE7cZWMs8AMKrmgtnXCURRNOs7qvLTK9c4\nWQcWTTPFn5ChM0545liAo0V8DlyLeFgDfac4mqRIZq9LWhejBSUqd9zqUzUf\nkm1KdOmwK0AczgG0tfe+cE/atTre7WfnzoSjf6UPrETbOF2uJh/SHIVGaN6N\nDVs1JrgJ1vGJz4o9U+YIcYaDjXD/S0P3IwY+ec7SKHQB+YXJNNkbgPsSVeQn\ne32o7O9jgWJrCGJPb4Sh3ePqCwTWllIRamkQIIkepayXaVxRngRDO8vER8yQ\nOvzpbIvIRosWNkuDSHx/J/Qdi4P4c9TCC6z3Tf+uNMbSBrFYfgDabIcSETBK\nna8GniMLG1MshuBw0qxfRW4g7T/jTuLapG62n8+nDWrlTZqJSxNsc39mauaa\nMVVa\r\n=mOeg\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEUCIGUlaLeYXhAc4PRfZJ4lOE6fzw6HI80RfoqQSOKvLhl9AiEA9kUp2HGyHlvYnuiKwpAn991kpBTILRi+xyoht8XQ7Kk="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.14_1595744836331_0.8612894099560626"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.15": {
+            "name": "hf-ui",
+            "version": "0.1.15",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "lib/index/index.js",
+            "module": "lib/index/index.js",
+            "style": "lib/index/index.css",
+            "repository": {
+                "type": "git",
+                "url": "git+https://gitlab.com/HangMine/hf-ui.git"
+            },
+            "homepage": "http://138.128.211.146:8888/",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --mode lib",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "file-saver": "^2.0.2"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "axios": "^0.19.2",
+                "babel-eslint": "^10.1.0",
+                "babel-plugin-import": "^1.13.0",
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "hf-ui": "^0.1.12",
+                "highlight.js": "^10.1.1",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "gitHead": "758c4709f90a54974429d9546fe45eeb26c573f0",
+            "bugs": {
+                "url": "https://gitlab.com/HangMine/hf-ui/issues"
+            },
+            "_id": "hf-ui@0.1.15",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-2glxjxIM8pge1r0PEHyhWZNMr9rQ9Vaf0yfTfh0J3agHfcLv0ooza3cdZjPLpFR6XaTsgHcMojCtSTYhfMv0fA==",
+                "shasum": "d3850a2f6c393a2732d2c8053f5bc0ca5a09852f",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.15.tgz",
+                "fileCount": 127,
+                "unpackedSize": 736725,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfItb3CRA9TVsSAnZWagAAZGUQAI60hV4UV0vfy3zKjuwL\nkSxEtJ8fAohixZzOODF8BjqcJXPooc23FTMhtaBFWKsnlX0HxQ5AeLAAd9mb\n1PVAJmRIgrfNbB/9XkiEMFNEZIunDfBg3rP9zOzWdb2MT4cejo6BEhvheLf5\nLBzVD3HhEmZPNmRlbSOGsRO6H6zfR/bVwi7hOhB5dVQtbaxyvL1JuqtNT6KZ\nWyM/0vDgwAVUC2IeDeSNnRDy2ndBzApVgTLO4VYKWg1PXWFUDo0FyKeIpwHM\nFj5l+EEQSEKeYq6+h2SoOTiDRNfTJEyxRy3pkblf1FDnGKW293HKuCR+0ayo\nn/sHfDjJRK6T4uSGtUzAbJWqaa2x1R7x4ojJE4jdX2PrLadHrE6aFL/2//pz\nChIHSLjz8hvsaOPSutCs/yFeA7t/kemvcQWooDqIdDcy3Gkz4WsBc2ejtUCR\nbLwCBrYxfq9L6CyKpSWhxKvP1xSrBWf8XdEh1qXiKB9K9P0bT+sxlCQKo7jb\nxd+8oZtvRj16/ooD91zkSiHMbuR1x7dWPHC2WEFs9vGdZ1nwzF85qGrd3dCR\nBdNuWy54pZXT/9ou4eCQU3O76Q/PkdWJ/0D02hUZ3VPOlSmPu4EL2uyv8E9C\ny/8okGzdnpMaXaBgjfBAo5KbyAEppw//bktDhis8MP5SW/YaORGKyvoOQm6l\nFWbu\r\n=ABmm\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEQCIEThxrLgQCvqq6RxH4OhvESnoHEAyldmgjrFUybzlF++AiBixSpmeX8slZpbmOJOYFAScEVnI4LlB7DY5KC/lFNaog=="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.15_1596118775345_0.8030947153843306"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.16": {
+            "name": "hf-ui",
+            "version": "0.1.16",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "lib/index/index.js",
+            "module": "lib/index/index.js",
+            "style": "lib/index/index.css",
+            "repository": {
+                "type": "git",
+                "url": "git+https://gitlab.com/HangMine/hf-ui.git"
+            },
+            "homepage": "http://138.128.211.146:8888/",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --mode lib",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "file-saver": "^2.0.2"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "axios": "^0.19.2",
+                "babel-eslint": "^10.1.0",
+                "babel-plugin-import": "^1.13.0",
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "hf-ui": "^0.1.12",
+                "highlight.js": "^10.1.1",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "gitHead": "e3b6434a5171e522efb98105ef79754356e2061d",
+            "bugs": {
+                "url": "https://gitlab.com/HangMine/hf-ui/issues"
+            },
+            "_id": "hf-ui@0.1.16",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-wqAGk3jWKd/zvZKP3d7rvcFGPAtBTyw8vMD0lq84UQXFfQRYySmYSIydIZDCfcitAHIssvbXwfQSHCR+mTr4+A==",
+                "shasum": "5e2c7da10b2ff07815e6b62a0e521b2f42a9a636",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.16.tgz",
+                "fileCount": 127,
+                "unpackedSize": 736821,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfI2nfCRA9TVsSAnZWagAAPR4P/1Sv4QQB2PD0vBxYBcqf\nf56ZtX1DuUsjkZNLqU7ef4ttjeD3bTXsIsZW0TC1XMvWXiJsd+9otM8ux2TX\nwFuzGFVZcaFEdLsRBYDunQHFes7JiKQM9AfjDGiSpLN3EWjGnxh30+xUtt4c\nIjlmzjCA2vFpDBizTeg45yxYCcLlFiGfpiBp4N3M/mG4OEp05F5AV+0zZrg8\nPbpapxzzVhUa4Qk0iLEFoRRlkysLCB7pwyxz4btCGyzMxqlZNrocVz0ZqP45\ntTbaBP+opaALngfqzK0LOX0MZXPSC0jQKR4R+epsEIghC4wUf/P6MM6KexAJ\nfsMccsB+fzNhozyks9hQDOdg6jhv2YREcBeJIDgbUXNF7PHY7FKpir+SfGva\nxRmRDS6ySW89bmXt+iQ1sBdeT+LcHgcNGg/lT68gD1D7X76p3Qk+vSBee0Sf\nKNlxPqCurmnbMf9TVQzynwbOhiosi86kjYjRGAFrJnaUkfg3DAoUdxkf2dLM\n8YuxkCiSB+m3lNMHoVFHvBpcjGC65I00XlfPfmk861LxrrCULGT3IJj1O5bq\nk0sxlkWYuWlw1A0QY2dMe9tuP4G0Zak/fy4fMD6zOH2t0Q2lh9ZTeTbHwOsa\n2eZ0a4V1C1H+TFz0aOLOZBVCyHaCJRFf79hcjU/LwwHQp7A0az17AshDe+Ma\nb37H\r\n=CrJu\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEQCIFghvXkeUZ+ZbvBWgbi5tHKe+IpMu4oCLzOiJzOTt1InAiARisPwRliQavvR62vPVy+5osMZLY6N+kFPXk3tctjcQw=="
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.16_1596156382867_0.2777542325974358"
+            },
+            "_hasShrinkwrap": false
+        },
+        "0.1.17": {
+            "name": "hf-ui",
+            "version": "0.1.17",
+            "private": false,
+            "description": "基于Vue的PC端UI框架",
+            "main": "lib/index/index.js",
+            "module": "lib/index/index.js",
+            "style": "lib/index/index.css",
+            "repository": {
+                "type": "git",
+                "url": "git+https://gitlab.com/HangMine/hf-ui.git"
+            },
+            "homepage": "http://138.128.211.146:8888/",
+            "scripts": {
+                "serve": "vue-cli-service serve",
+                "build": "vue-cli-service build",
+                "lint": "vue-cli-service lint",
+                "lib": "vue-cli-service build --mode lib",
+                "pub": "npm version patch && npm publish"
+            },
+            "dependencies": {
+                "file-saver": "^2.0.2"
+            },
+            "devDependencies": {
+                "@vue/cli-plugin-babel": "^4.4.0",
+                "@vue/cli-plugin-eslint": "^4.4.0",
+                "@vue/cli-service": "^4.4.0",
+                "axios": "^0.19.2",
+                "babel-eslint": "^10.1.0",
+                "babel-plugin-import": "^1.13.0",
+                "core-js": "^3.6.5",
+                "element-ui": "^2.13.2",
+                "eslint": "^6.7.2",
+                "eslint-plugin-vue": "^6.2.2",
+                "hf-ui": "^0.1.12",
+                "highlight.js": "^10.1.1",
+                "node-sass": "^4.12.0",
+                "sass-loader": "^8.0.2",
+                "vue": "^2.6.11",
+                "vue-router": "^3.3.4",
+                "vue-template-compiler": "^2.6.11"
+            },
+            "gitHead": "0e8e3fbf22dc5ca2e241450ccdaa9310b5427910",
+            "bugs": {
+                "url": "https://gitlab.com/HangMine/hf-ui/issues"
+            },
+            "_id": "hf-ui@0.1.17",
+            "_nodeVersion": "12.14.0",
+            "_npmVersion": "6.13.4",
+            "dist": {
+                "integrity": "sha512-ErX2Ohi23Mfxyh7Bb3xl3+SammM2keYFTZtMRNjKlkAH4sx/xujPfGTEr7qexe8PlhC44H3pJn+eoMb7kKhtSA==",
+                "shasum": "10bd0526ac30a9a6ed48e6607e54b4d99626b697",
+                "tarball": "http://10.106.88.89:8081/nexus/content/groups/npm-group/hf-ui/-/hf-ui-0.1.17.tgz",
+                "fileCount": 127,
+                "unpackedSize": 736821,
+                "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfQgOACRA9TVsSAnZWagAA5z4P/im+Zy8+pWyACowl7DHZ\ndO9gHIDK7CsdPyyQlimnvpGjvUxWqy4BRwtUFsDR/braeA5EgLJYvmOdT4Z1\nU+lBI5frCGk5vtq70GkJzGR4ztiUsBdTCI/zjKmDH1gEBx7EjTLQ695DhJ/R\nF+EORucE/zfIqTFBt1t8AJbWMRy63Z5klexFHNHG+crQKPGzcGcnE/xlT2Xr\nvRmxFt70dLe5VsMvoj2MuVATdZ8bZoDa0Zcdz2Qu4daZ8cuRmlP3CtUlUb1e\nnWPOP4AFKR2dizxFnaxKhJ82R1Ul4az38nOTtMl8s6ZyOs4gdShGtjKpkUhq\nZ4xvOz+KG8HDvRwuMz4xZpiBzQoUQhxznji/hcfS5w/J7IjKJzJJs9Kdu0k6\nqSf0PmpQ0dJalPQD0G+Qi7r8KP7tfvRCTCUVKr13f/+togwQVJhjHW7Crbog\nUVCZ/rloTI8R2IwR6jTATGlWxwQ+imCzLX++UdiGFzMumCPLPsfFEDnlCt8D\nMl3LwW+MjWkpdHe9rx75Jz7QWoV/TYmKV6Xkaekyge0deGR+NMPkbYGwhuHd\nKCm0cGAkhz0JOucwCVIfXaGtLFwunRE6besFEjPIvnyae8qWzx1eJSF+r5UU\n7mwrI6+QezrI228DOqfYwOCNQyKzwsHmqag5QIe/48MDZApRUoQ8IRS+H/6b\nudOD\r\n=KDSd\r\n-----END PGP SIGNATURE-----\r\n",
+                "signatures": [{
+                    "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                    "sig": "MEYCIQDmHTORMfl1A4yZKPOKHrfF47B65Me7K1Sj4Ew5Ogq/pwIhAJKyjp/O5yyUGCQ10DVh+VJHaTxJ3Dr18ctb0j2Mc8At"
+                }]
+            },
+            "maintainers": [{
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            }],
+            "_npmUser": {
+                "name": "hangmine",
+                "email": "95629358@qq.com"
+            },
+            "directories": {},
+            "_npmOperationalInternal": {
+                "host": "s3://npm-registry-packages",
+                "tmp": "tmp/hf-ui_0.1.17_1598161791627_0.2677604402497069"
+            },
+            "_hasShrinkwrap": false
+        }
+    },
+    "name": "hf-ui",
+    "time": {
+        "created": "2020-07-11T12:25:22.373Z",
+        "modified": "2022-05-04T23:45:54.437Z",
+        "1.0.0": "2022-07-19T07:28:17.760Z",
+        "1.0.1": "2022-07-19T07:49:36.587Z",
+        "1.0.11": "2022-07-19T07:58:52.469Z",
+        "1.0.12": "2022-07-19T08:24:22.523Z",
+        "1.0.13": "2022-07-19T08:39:22.439Z",
+        "1.0.14": "2022-07-19T08:53:01.525Z",
+        "1.0.15": "2022-07-19T09:10:51.080Z",
+        "1.0.16": "2022-07-19T09:13:40.693Z",
+        "1.0.17": "2022-07-19T09:21:36.904Z",
+        "1.0.18": "2022-07-19T09:23:20.173Z",
+        "1.0.19": "2022-07-20T00:22:49.564Z",
+        "1.0.2": "2022-07-20T00:26:57.708Z",
+        "1.0.20": "2022-07-20T00:38:00.053Z",
+        "1.0.21": "2022-07-20T00:41:45.765Z",
+        "1.0.22": "2022-07-20T02:29:19.289Z",
+        "1.0.24": "2022-07-20T03:00:46.810Z",
+        "1.0.25": "2022-07-20T05:53:01.874Z",
+        "1.0.26": "2022-07-20T08:56:23.068Z",
+        "1.0.28": "2022-07-21T02:27:56.311Z",
+        "1.0.29": "2022-07-21T02:37:25.809Z",
+        "1.0.31": "2022-07-21T02:50:59.802Z",
+        "1.0.32": "2022-07-22T03:02:17.348Z",
+        "1.0.33": "2022-07-22T03:06:48.020Z",
+        "1.0.34": "2022-07-22T03:23:22.212Z",
+        "1.0.35": "2022-07-22T03:28:54.986Z",
+        "1.0.36": "2022-07-22T05:53:26.288Z",
+        "1.0.37": "2022-07-22T05:57:29.257Z",
+        "1.0.38": "2022-07-22T06:36:52.932Z",
+        "1.0.39": "2022-07-22T06:45:48.742Z",
+        "1.0.41": "2022-07-22T07:13:46.129Z",
+        "1.0.42": "2022-07-22T07:19:11.868Z",
+        "1.0.44": "2022-07-22T07:29:19.993Z",
+        "1.0.45": "2022-07-22T07:39:32.019Z",
+        "1.0.46": "2022-07-22T07:51:04.619Z",
+        "1.0.49": "2022-07-22T07:55:36.936Z",
+        "1.0.51": "2022-07-22T08:00:44.548Z",
+        "1.0.52": "2022-07-22T08:04:00.864Z",
+        "1.0.53": "2022-07-22T08:11:52.200Z",
+        "1.0.54": "2022-07-22T08:18:01.341Z",
+        "1.0.55": "2022-07-22T08:19:39.581Z",
+        "1.0.56": "2022-07-27T07:36:22.508Z",
+        "1.0.57": "2022-08-16T02:44:06.099Z",
+        "0.1.0": "2020-07-11T12:25:22.500Z",
+        "0.1.1": "2020-07-11T14:11:38.780Z",
+        "0.1.2": "2020-07-11T14:31:25.486Z",
+        "0.1.3": "2020-07-11T14:52:04.510Z",
+        "0.1.4": "2020-07-11T14:52:57.663Z",
+        "0.1.5": "2020-07-11T15:07:41.631Z",
+        "0.1.6": "2020-07-12T07:14:33.152Z",
+        "0.1.7": "2020-07-12T07:21:11.817Z",
+        "0.1.8": "2020-07-12T07:51:55.037Z",
+        "0.1.9": "2020-07-12T07:54:59.617Z",
+        "0.1.10": "2020-07-12T08:00:20.892Z",
+        "0.1.11": "2020-07-12T08:13:53.338Z",
+        "0.1.12": "2020-07-23T05:47:37.554Z",
+        "0.1.13": "2020-07-26T06:27:09.369Z",
+        "0.1.14": "2020-07-26T06:27:16.541Z",
+        "0.1.15": "2020-07-30T14:19:35.488Z",
+        "0.1.16": "2020-07-31T00:46:22.996Z",
+        "0.1.17": "2020-08-23T05:49:51.790Z"
+    },
+    "readmeFilename": "README.md",
+    "homepage": "http://138.128.211.146:8888/"
+}

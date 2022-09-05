@@ -1,0 +1,23 @@
+export default {
+  userId: 'oa用户id',
+  userCode: '工号',
+  userName: '姓名',
+  pkOrg: '组织',
+  pkDept: '部门',
+  gender: '性别',
+  mobile: '手机号',
+  email: '邮箱',
+  ncUserId: 'nc用户id',
+  userFrom: '用户来源：1、oa获取，2、供应商',
+  creator: '创建人',
+  creatorUserName: '创建人',
+  createTime: '创建时间',
+ modifier: '修改人',
+  modifierUserName: '修改人',
+  modifyTime: '修改时间',
+  enableState: '启用/禁用',
+  deleted: '删除状态',
+  headPic: '头像',
+  id: '身份证号',
+  effectTime: '用户有效时间(单位s)'
+}
