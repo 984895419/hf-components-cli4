@@ -11,16 +11,20 @@
     >
       <slot>
         <el-switch
+          v-if="showBy === 'switch'"
           v-model="value.enableState"
           :active-value="1"
           :inactive-value="0"
           v-bind="$attrs"
-          v-on="$listeners"
           active-color="#13ce66"
           inactive-color="#ff4949"
           :active-text="$t('common.enable')"
           :inactive-text="$t('common.disable')"
+          v-on="$listeners"
         />
+        <el-select v-else v-model="value.enableState">
+          <el-option v-for="option in states" :key="option.label" :value="option.value" :label="option.label" />
+        </el-select>
       </slot>
     </el-form-item>
   </el-col>
@@ -64,8 +68,30 @@ export default {
     namespace: {
           type: String,
           default: undefined
+        },
+        showBy: {
+          type: String,
+          default: 'switch'
         }
   },
+    data() {
+      return {
+        states: [
+          {
+            value: undefined,
+            label: this.$t('common.all')
+          },
+          {
+            value: 1,
+            label: this.$t('common.enable')
+          },
+          {
+            value: 0,
+            label: this.$t('common.disable')
+          }
+        ]
+      }
+    },
     computed: {
       computeLabel() {
           return this.label ? this.label : (this.namespace ? this.$t(this.namespace + '.' + this.prop) : '')

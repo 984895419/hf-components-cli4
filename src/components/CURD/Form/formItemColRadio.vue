@@ -10,16 +10,13 @@
       :error="error"
     >
       <slot>
-        <!--        <el-input v-if="$attrs.type === 'number'"  v-model.number="value[prop]" v-bind="$attrs" :placeholer="computedPlaceholder"></el-input>-->
-        <el-tooltip
-          v-if="existComputedSuffix('Helper')"
-          class="item"
-          effect="dark"
-          :content="computedSuffixContent('Helper')"
-          placement="right">
-          <el-input type="textarea" :rows="$attrs['rows'] || 5" v-model="value[prop]" v-bind="$attrs" :placeholer="computedPlaceholder" />
-        </el-tooltip>
-        <el-input v-else type="textarea" :rows="$attrs['row'] || 5" v-model="value[prop]" v-bind="$attrs" :placeholer="computedPlaceholder" />
+        <el-radio
+          v-model="value[prop]"
+          v-for="item in radioList"
+          :key="item.value"
+          :label="item.value"
+          border>{{item.label}}
+        </el-radio>
       </slot>
     </el-form-item>
   </el-col>
@@ -27,7 +24,7 @@
 <script>
 import FormItemMixin from './formItem.mixin'
 export default {
-  name: 'FormItemColTextArea',
+  name: 'FormItemColRadio',
   props: {
     span: {
           type: Number,
@@ -57,7 +54,13 @@ export default {
           type: String,
           default: undefined
         },
+      radioList: {
+        type: Array,
+          default: function () {
+              return []
+          }
+      }
   },
-    mixins: [FormItemMixin]
+  mixins: [FormItemMixin]
 }
 </script>

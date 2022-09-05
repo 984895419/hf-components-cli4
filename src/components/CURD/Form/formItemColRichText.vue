@@ -17,18 +17,27 @@
           effect="dark"
           :content="computedSuffixContent('Helper')"
           placement="right">
-          <el-input type="textarea" :rows="$attrs['rows'] || 5" v-model="value[prop]" v-bind="$attrs" :placeholer="computedPlaceholder" />
+          <tinymce
+            :id="'s-' +  (Math.random() * 1000).toFixed(0)"
+            v-model="value[prop]"
+          />
         </el-tooltip>
-        <el-input v-else type="textarea" :rows="$attrs['row'] || 5" v-model="value[prop]" v-bind="$attrs" :placeholer="computedPlaceholder" />
+        <tinymce
+          v-else
+          :id="'s-' +  (Math.random() * 1000).toFixed(0)"
+          v-model="value[prop]"
+        />
       </slot>
     </el-form-item>
   </el-col>
 </template>
 <script>
 import FormItemMixin from './formItem.mixin'
+import Tinymce from '../../Tinymce/index'
 export default {
-  name: 'FormItemColTextArea',
-  props: {
+  name: 'FormItemColRichText',
+    components: {Tinymce},
+    props: {
     span: {
           type: Number,
           default: undefined
@@ -56,8 +65,8 @@ export default {
     labelWidth: {
           type: String,
           default: undefined
-        },
+        }
   },
-    mixins: [FormItemMixin]
+  mixins: [FormItemMixin]
 }
 </script>
