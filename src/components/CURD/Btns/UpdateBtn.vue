@@ -54,7 +54,10 @@ export default {
     /**
      * 查询的url
      */
-    url: String
+    url: {
+      type: String,
+      default: undefined
+    },
   },
   data() {
     return {
