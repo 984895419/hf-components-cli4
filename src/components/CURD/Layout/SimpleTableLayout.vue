@@ -40,6 +40,7 @@
   import TableColumnPreferenceSettingApiSlot from '@/views/basic/preferenceSetting/TableColumnPrefenceSettingApiSlot'
   import CurdTableColumnSelect from '@/components/CURD/Table/select/TableColumnSelect'
   export default {
+    name: 'SimpleTableLayout',
     components: { TableColumnPreferenceSettingApiSlot, CurdTableColumnSelect },
       // 指令:  计算单表的高度 让他自适应高度
     directives: {

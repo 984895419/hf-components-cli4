@@ -13,6 +13,7 @@
   import SectionTableColumn from './column/base/SectionTableColumn'
   import TagTableColumn from './column/base/TagTableColumn'
   export default {
+    name: 'AdaptorTableColumn',
     components: {
       CreateTimeTableColumn,
       CreatorTableColumn,

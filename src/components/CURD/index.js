@@ -30,7 +30,7 @@ import formItemText from "./Form/formItemText.vue";
 // // JsonEditor
 import JsonEditor from "./JsonEditor/index.vue";
 // // Layout
-import SimpleTableLayout from "./Layout/SimpleTableLayout.vue";
+// import SimpleTableLayout from "./Layout/SimpleTableLayout.vue";
 // Pagination
 import CurdPagination from "./pagination/Pagination.vue";
 // Query
@@ -59,7 +59,7 @@ import TableColumnSelect from "./Table/select/TableColumnSelect.vue";
 import baseApi from './baseApi.js'
 import curdmixin from './curd.mixin.js'
 import defaultUrl from './defaultUrl.js'
-import formItemMixin from './Form/formItem.mixin.js'
+import FormItemMixin from './Form/formItem.mixin.js'
 
 
 import TextBtns from "./TextBtns/index.vue";
@@ -72,11 +72,11 @@ const coms = [
   CopyFormItemDict, cuFrom, EnableStateformItemText,
   formItemCol, formItemColDict, formItemColEnableState,
   formItemColSelect, formItemColTextarea, formItemColUploadImage,
-  formItemText, JsonEditor, SimpleTableLayout,CurdPagination, SimpleSearch, RowSpanSlot,
-  HfTable, AdaptorTableColumn,DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn,
+  formItemText, JsonEditor ,CurdPagination, SimpleSearch, RowSpanSlot,
+  HfTable,DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn,
   CopierRender, CreateTimeTableColumn, CreatorTableColumn, DefaultTableColumn,
-  EnableStateTableColumn, ImageTableColumn, ModifierTableColumn,formItemColDateTimeRange,
-  ModifyTimeTableColumn, TableColumnSelect, formItemColDateTime,formItemColRadio,formItemColRichText,
+  EnableStateTableColumn, ImageTableColumn, ModifierTableColumn,
+  ModifyTimeTableColumn, TableColumnSelect,formItemColDateTime,formItemColDateTimeRange,formItemColRadio,AdaptorTableColumn,formItemColRichText,
   TextBtns, aa
 ]; // 将来如果有其它组件,都可以写到这个数组里
 
@@ -93,5 +93,5 @@ export {
   baseApi,
   curdmixin,
   defaultUrl,
-  formItemMixin
+  FormItemMixin
 }
