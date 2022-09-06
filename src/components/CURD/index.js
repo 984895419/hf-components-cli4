@@ -62,8 +62,7 @@ import defaultUrl from './defaultUrl.js'
 import FormItemMixin from './Form/formItem.mixin.js'
 
 
-import TextBtns from "./TextBtns/index.vue";
-import aa from "./aa/index.vue";
+
 
 const coms = [
   ApiSlot, AddBtn, CommonDialogBtn,
@@ -76,8 +75,7 @@ const coms = [
   HfTable,DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn,
   CopierRender, CreateTimeTableColumn, CreatorTableColumn, DefaultTableColumn,
   EnableStateTableColumn, ImageTableColumn, ModifierTableColumn,SimpleTableLayout,
-  ModifyTimeTableColumn, TableColumnSelect,formItemColDateTime,formItemColDateTimeRange,formItemColRadio,AdaptorTableColumn,formItemColRichText,
-  TextBtns, aa
+  ModifyTimeTableColumn, TableColumnSelect,formItemColDateTime,formItemColDateTimeRange,formItemColRadio,AdaptorTableColumn,formItemColRichText
 ]; // 将来如果有其它组件,都可以写到这个数组里
 
 // 批量组件注册

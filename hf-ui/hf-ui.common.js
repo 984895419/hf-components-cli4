@@ -127661,96 +127661,6 @@ function defaultUrlMethod(baseUrl, primaryKeyField, customUrl) {
     return customUrl;
   }
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3db52e36-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/CURD/TextBtns/index.vue?vue&type=template&id=379d8fa0&
-var TextBtnsvue_type_template_id_379d8fa0_render = function render() {
-  var _vm = this,
-      _c = _vm._self._c;
-
-  return _c('div', [_c('button', {
-    on: {
-      "click": _vm.alertTip
-    }
-  }, [_vm._v("bbbb")])]);
-};
-
-var TextBtnsvue_type_template_id_379d8fa0_staticRenderFns = [];
-
-// CONCATENATED MODULE: ./src/components/CURD/TextBtns/index.vue?vue&type=template&id=379d8fa0&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/CURD/TextBtns/index.vue?vue&type=script&lang=js&
-/* harmony default export */ var TextBtnsvue_type_script_lang_js_ = ({
-  name: "text-btns",
-  methods: {
-    alertTip: function alertTip() {
-      alert(12312);
-    }
-  }
-});
-// CONCATENATED MODULE: ./src/components/CURD/TextBtns/index.vue?vue&type=script&lang=js&
- /* harmony default export */ var CURD_TextBtnsvue_type_script_lang_js_ = (TextBtnsvue_type_script_lang_js_); 
-// CONCATENATED MODULE: ./src/components/CURD/TextBtns/index.vue
-
-
-
-
-
-/* normalize component */
-
-var TextBtns_component = normalizeComponent(
-  CURD_TextBtnsvue_type_script_lang_js_,
-  TextBtnsvue_type_template_id_379d8fa0_render,
-  TextBtnsvue_type_template_id_379d8fa0_staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* harmony default export */ var TextBtns = (TextBtns_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3db52e36-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/CURD/aa/index.vue?vue&type=template&id=328e3078&
-var aavue_type_template_id_328e3078_render = function render() {
-  var _vm = this,
-      _c = _vm._self._c;
-
-  return _vm._m(0);
-};
-
-var aavue_type_template_id_328e3078_staticRenderFns = [function () {
-  var _vm = this,
-      _c = _vm._self._c;
-
-  return _c('div', [_c('button', [_vm._v("aaa")])]);
-}];
-
-// CONCATENATED MODULE: ./src/components/CURD/aa/index.vue?vue&type=template&id=328e3078&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/CURD/aa/index.vue?vue&type=script&lang=js&
-/* harmony default export */ var aavue_type_script_lang_js_ = ({
-  name: "aa"
-});
-// CONCATENATED MODULE: ./src/components/CURD/aa/index.vue?vue&type=script&lang=js&
- /* harmony default export */ var CURD_aavue_type_script_lang_js_ = (aavue_type_script_lang_js_); 
-// CONCATENATED MODULE: ./src/components/CURD/aa/index.vue
-
-
-
-
-
-/* normalize component */
-
-var aa_component = normalizeComponent(
-  CURD_aavue_type_script_lang_js_,
-  aavue_type_template_id_328e3078_render,
-  aavue_type_template_id_328e3078_staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* harmony default export */ var aa = (aa_component.exports);
 // CONCATENATED MODULE: ./src/components/CURD/index.js
 
 
@@ -127826,9 +127736,7 @@ var aa_component = normalizeComponent(
 
 
 
-
-
-var coms = [ApiSlot, AddBtn, CommonDialogBtn, DelBtn, DialogBtnPage, DropdownBtn, ExportBtn, TemplateConfirmBtn, UpdateBtn, CopyBtn, CopyFormItemDict, cuFrom, EnableStateformItemText, formItemCol, formItemColDict, formItemColEnableState, formItemColSelect, formItemColTextarea, formItemColUploadImage, formItemText, JsonEditor, Pagination, search, RowSpanSlot, HfTable, DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn, CopierRender, CreateTimeTableColumn, CreatorTableColumn, DefaultTableColumn, EnableStateTableColumn, ImageTableColumn, ModifierTableColumn, SimpleTableLayout, ModifyTimeTableColumn, TableColumnSelect, formItemColDateTime, formItemColDateTimeRange, formItemColRadio, AdaptorTableColumn, formItemColRichText, TextBtns, aa]; // 将来如果有其它组件,都可以写到这个数组里
+var coms = [ApiSlot, AddBtn, CommonDialogBtn, DelBtn, DialogBtnPage, DropdownBtn, ExportBtn, TemplateConfirmBtn, UpdateBtn, CopyBtn, CopyFormItemDict, cuFrom, EnableStateformItemText, formItemCol, formItemColDict, formItemColEnableState, formItemColSelect, formItemColTextarea, formItemColUploadImage, formItemText, JsonEditor, Pagination, search, RowSpanSlot, HfTable, DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn, CopierRender, CreateTimeTableColumn, CreatorTableColumn, DefaultTableColumn, EnableStateTableColumn, ImageTableColumn, ModifierTableColumn, SimpleTableLayout, ModifyTimeTableColumn, TableColumnSelect, formItemColDateTime, formItemColDateTimeRange, formItemColRadio, AdaptorTableColumn, formItemColRichText]; // 将来如果有其它组件,都可以写到这个数组里
 // 批量组件注册
 
 var install = function install(Vue) {
