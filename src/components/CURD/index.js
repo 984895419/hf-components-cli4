@@ -30,11 +30,11 @@ import formItemText from "./Form/formItemText.vue";
 // // JsonEditor
 import JsonEditor from "./JsonEditor/index.vue";
 // // Layout
-// import SimpleTableLayout from "./Layout/SimpleTableLayout.vue";
+import SimpleTableLayout from "./Layout/SimpleTableLayout.vue";
 // Pagination
 import CurdPagination from "./pagination/Pagination.vue";
 // Query
-import SimpleSearch from "./Query/search.vue";
+import SimpleSearch from "./Query/search.vue";  
 // Slot
 import RowSpanSlot from "./Slot/RowSpanSlot.vue";
 // Table 
@@ -75,7 +75,7 @@ const coms = [
   formItemText, JsonEditor ,CurdPagination, SimpleSearch, RowSpanSlot,
   HfTable,DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn,
   CopierRender, CreateTimeTableColumn, CreatorTableColumn, DefaultTableColumn,
-  EnableStateTableColumn, ImageTableColumn, ModifierTableColumn,
+  EnableStateTableColumn, ImageTableColumn, ModifierTableColumn,SimpleTableLayout,
   ModifyTimeTableColumn, TableColumnSelect,formItemColDateTime,formItemColDateTimeRange,formItemColRadio,AdaptorTableColumn,formItemColRichText,
   TextBtns, aa
 ]; // 将来如果有其它组件,都可以写到这个数组里

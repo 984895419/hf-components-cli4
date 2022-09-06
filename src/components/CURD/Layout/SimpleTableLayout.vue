@@ -99,7 +99,7 @@
   }
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
   /* 表内部分样式 */
   .stable {
     margin: 20px 10px 10px 10px;
