@@ -13,6 +13,9 @@ import UpdateBtn from "./Btns/UpdateBtn.vue"; // 更新
 // // developing
 import CopyBtn from "./developing/CopyBtn.vue";
 import CopyFormItemDict from "./developing/CopyFormItemDict.vue";
+// effect
+import HfResizeSplitPane from "./Effect/HfResizeSplitPane.vue"
+
 // Form
 import cuFrom from "./Form/cuFrom.vue";
 import EnableStateformItemText from "./Form/EnableStateformItemText.vue";
@@ -22,6 +25,7 @@ import formItemColDateTimeRange from "./Form/formItemColDateTimeRange.vue";
 import formItemColDict from "./Form/formItemColDict.vue";
 import formItemColEnableState from "./Form/formItemColEnableState.vue";
 import formItemColRadio from "./Form/formItemColRadio.vue";
+import formItemColRandom from "./Form/formItemColRandom.vue";
 import formItemColRichText from "./Form/formItemColRichText.vue";
 import formItemColSelect from "./Form/formItemColSelect.vue";
 import formItemColTextarea from "./Form/formItemColTextarea.vue";
@@ -31,10 +35,22 @@ import formItemText from "./Form/formItemText.vue";
 import JsonEditor from "./JsonEditor/index.vue";
 // // Layout
 import SimpleTableLayout from "./Layout/SimpleTableLayout.vue";
+import FatherSonLayout from "./Layout/FatherSonLayout.vue";
+// Others
+import HfTimeline from "./Others/HfTimeline.vue";
+import HfTooltip from "./Others/HfTooltip.vue";
 // Pagination
 import CurdPagination from "./pagination/Pagination.vue";
 // Query
 import SimpleSearch from "./Query/search.vue";  
+// Quit
+import QuitCu from "./Quit/QuitCu.vue";  
+import QuitInputRefer from "./Quit/QuitInputRefer.vue";  
+import QuitMultipleRefer from "./Quit/QuitMultipleRefer.vue";  
+// Single
+import hfDialog from "./Single/hfDialog.vue";  
+import hfDict from "./Single/hfDict.vue";  
+import hfSelect from "./Single/hfSelect.vue";  
 // Slot
 import RowSpanSlot from "./Slot/RowSpanSlot.vue";
 // Table 
@@ -50,10 +66,12 @@ import CopierRender from "./Table/column/other/CopierRender.vue";
 import CreateTimeTableColumn from "./Table/column/CreateTimeTableColumn.vue";
 import CreatorTableColumn from "./Table/column/CreatorTableColumn.vue";
 import DefaultTableColumn from "./Table/column/DefaultTableColumn.vue";
+import DictTableColumn from "./Table/column/DictTableColumn.vue";
 import EnableStateTableColumn from "./Table/column/EnableStateTableColumn.vue";
 import ImageTableColumn from "./Table/column/ImageTableColumn.vue";
 import ModifierTableColumn from "./Table/column/ModifierTableColumn.vue";
 import ModifyTimeTableColumn from "./Table/column/ModifyTimeTableColumn.vue";
+import SelectTableColumn from "./Table/column/SelectTableColumn.vue";
 // select
 import TableColumnSelect from "./Table/select/TableColumnSelect.vue";
 import baseApi from './baseApi.js'
@@ -75,7 +93,9 @@ const coms = [
   HfTable,DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn,
   CopierRender, CreateTimeTableColumn, CreatorTableColumn, DefaultTableColumn,
   EnableStateTableColumn, ImageTableColumn, ModifierTableColumn,SimpleTableLayout,
-  ModifyTimeTableColumn, TableColumnSelect,formItemColDateTime,formItemColDateTimeRange,formItemColRadio,AdaptorTableColumn,formItemColRichText
+  ModifyTimeTableColumn, TableColumnSelect,formItemColDateTime,formItemColDateTimeRange,formItemColRadio,AdaptorTableColumn,formItemColRichText,
+  HfResizeSplitPane,formItemColRandom,FatherSonLayout,HfTimeline,HfTooltip,QuitCu,QuitInputRefer,QuitMultipleRefer,hfDialog,hfDict,hfSelect,DictTableColumn,SelectTableColumn
+
 ]; // 将来如果有其它组件,都可以写到这个数组里
 
 // 批量组件注册

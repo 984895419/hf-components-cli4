@@ -1,6 +1,6 @@
 <template>
   <div v-resize="handleResize" class="stable">
-    <div>
+    <div ref="search">
       <slot name="search" />
     </div>
     <!-- 列表-->
@@ -10,37 +10,42 @@
       :preference-alias="conf.namespace"
     >
       <template v-slot="{ doSave, preferenceData, headerDragend }">
-        <div class="btnslist">
+        <div ref="btnslist" class="btnslist col-btn-display">
           <slot name="btnslist" />
           <curd-table-column-select
             v-if="showFields"
             v-model="showFields"
             :preference-alias="conf.namespace"
             :table-fields="preferenceData"
-            style="float: right"
+            style="float: right;"
             @selectedChange="reRenderTable"
             @doSave="doSave"
           />
         </div>
 
-        <el-card>
+        <el-card v-loading="reRending">
           <slot
+            v-if="showFields && showFields.length > 0"
             :doSave="doSave"
             :showFields="showFields"
             :headerDragend="headerDragend"
             :heightTable="heightTable"
           />
+          <span v-else>
+            {{ $t('common.selectShowFields') }}
+          </span>
         </el-card>
       </template>
     </table-column-preference-setting-api-slot>
-    <slot name="pagination" />
+    <div ref="pagination">
+      <slot name="pagination" />
+    </div>
   </div>
 </template>
 <script>
   import TableColumnPreferenceSettingApiSlot from '@/views/basic/preferenceSetting/TableColumnPrefenceSettingApiSlot'
   import CurdTableColumnSelect from '@/components/CURD/Table/select/TableColumnSelect'
   export default {
-    name: 'SimpleTableLayout',
     components: { TableColumnPreferenceSettingApiSlot, CurdTableColumnSelect },
       // 指令:  计算单表的高度 让他自适应高度
     directives: {
@@ -70,18 +75,28 @@
       conf: {
         type: Object,
         required: true
+      },
+      skipHeight: {
+        type: Number,
+        default: 210
       }
     },
     data() {
       return {
         showFields: undefined,
-        heightTable: 900
+        heightTable: 900,
+        reRending: false
       }
     },
     methods: {
       // 表格宽高
       handleResize({ width, height }) {
-        this.heightTable = parseFloat(height) - 210
+        this.$nextTick(() => {
+          const searchHeight = this.$refs.search ? this.$refs.search.getBoundingClientRect().height : 0
+          const btnslistHeight = this.$refs.btnslist ? this.$refs.btnslist.getBoundingClientRect().height : 0
+          const paginationHeight = this.$refs.pagination ? this.$refs.pagination.getBoundingClientRect().height : 0
+          this.heightTable = parseFloat(height) - searchHeight - btnslistHeight - paginationHeight - 84
+        })
       },
 
       reRenderTable(res) {
@@ -99,15 +114,16 @@
   }
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="less">
   /* 表内部分样式 */
   .stable {
     margin: 20px 10px 10px 10px;
     height: 100%;
+    min-height: 545px;
   }
 
   /deep/ .col-btn-display>div,
-  .col-btn-display>.el-button {
+  /deep/ .col-btn-display>.el-button {
     display: inline-block;
     margin-right: 10px;
   }
@@ -116,7 +132,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .total {

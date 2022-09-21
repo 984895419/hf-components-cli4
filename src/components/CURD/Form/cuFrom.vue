@@ -17,7 +17,7 @@
   </el-form>
 </template>
 <script>
-import { getData, getMessage, isSuccessResult, isTheRetCode } from '@/utils/ajaxResultUtil'
+import { getData, getMessage, isSuccessResult, isTheRetCode } from '../../../utils/ajaxResultUtil'
 import { mapGetters } from 'vuex'
 export default {
   name: 'CuForm',

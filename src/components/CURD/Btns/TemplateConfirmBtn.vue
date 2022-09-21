@@ -16,7 +16,7 @@
 <script>
 
 import { getMessage, isSuccessResult } from '@/utils/ajaxResultUtil'
-import { baseApiDeleteMethod, baseApiPostMethod, baseApiPutMethod } from '@/components/CURD/baseApi'
+import { baseApiDeleteMethod, baseApiPostMethod, baseApiPutMethod } from '../baseApi'
 import {getData} from '../../../utils/ajaxResultUtil'
 import { mapGetters } from 'vuex'
 
