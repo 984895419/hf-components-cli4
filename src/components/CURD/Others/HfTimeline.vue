@@ -26,7 +26,7 @@
   import { parseTime } from '@/utils'
   import { baseApiGetMethod } from '@/components/CURD/baseApi'
   import { isSuccessResult } from '@/utils/ajaxResultUtil'
-import { id } from 'vue-json-editor/assets/jsoneditor'
+  import { id } from 'vue-json-editor/assets/jsoneditor'
   export default {
     name: 'HfTimeline',
     props: {

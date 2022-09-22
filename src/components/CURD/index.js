@@ -64,13 +64,28 @@ import defaultUrl from './defaultUrl.js'
 import FormItemMixin from './Form/formItem.mixin.js'
 // new
 // Effect
-// import HfResizeSplitPane from "./Effect/HfResizeSplitPane.vue";
+import HfResizeSplitPane from "./Effect/HfResizeSplitPane.vue";
+// Layout 
 import FatherSonLayout from "./Layout/FatherSonLayout.vue";
 import SimpleTableLayout from "./Layout/SimpleTableLayout.vue";
+// Others
+import HfTimeline from "./Others/HfTimeline.vue";
+import HfTooltip from "./Others/HfTooltip.vue";
+//Quit
+import QuitCu from "./Quit/QuitCu.vue";
+import QuitInputRefer from "./Quit/QuitInputRefer.vue";
+import QuitMultipleRefer from "./Quit/QuitMultipleRefer.vue";
+//Single
+import hfDialog from './Single/hfDialog.vue'
+import hfDict from './Single/hfDict.vue'
+import hfSelect from './Single/hfSelect.vue'
+//table
+import DictTableColumn from './Table/column/DictTableColumn.vue'
+import SelectTableColumn from './Table/column/SelectTableColumn.vue'
 
 
 
-
+// QuitCu,QuitInputRefer,QuitMultipleRefer,
 const coms = [
   ApiSlot, AddBtn, CommonDialogBtn,
   DelBtn, DialogBtnPage, DropdownBtn, ExportBtn,
@@ -82,7 +97,10 @@ const coms = [
   ModifyTimeTableColumn, TableColumnSelect,AdaptorTableColumn,
   cuFrom,EnableStateformItemText,formItemCol,formItemColDict,formItemColDateTime,formItemColDateTimeRange,formItemColUploadImage,
   formItemColEnableState,formItemColRadio,formItemColRichText,formItemColSelect,formItemColTextarea,formItemText,
-  SimpleTableLayout,FatherSonLayout
+  SimpleTableLayout,FatherSonLayout,HfTimeline,HfTooltip,
+  hfDialog,hfDict,hfSelect,
+  DictTableColumn,DefaultTableColumn,SelectTableColumn,
+  QuitCu,QuitInputRefer,QuitMultipleRefer,HfResizeSplitPane
 ]; // 将来如果有其它组件,都可以写到这个数组里
 
 // 批量组件注册

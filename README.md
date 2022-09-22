@@ -1,5 +1,5 @@
 # hf-components-cli4
-
+多试试  重装
 ## Project setup
 ```
 npm install
