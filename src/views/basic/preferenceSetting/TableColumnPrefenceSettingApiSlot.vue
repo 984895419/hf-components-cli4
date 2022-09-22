@@ -72,8 +72,7 @@
                     this.$emit('input', this.initData)
                 }
             },
-            headerDragend(newWidth, oldWidth, column, event) {
-                debugger
+            headerDragend(newWidth, oldWidth, column) {
                 this.widths[column.property] = newWidth
             }
         }

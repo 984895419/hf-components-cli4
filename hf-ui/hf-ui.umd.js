@@ -53810,6 +53810,13 @@ $({ target: 'Array', proto: true, forced: ES3_STRINGS || !STRICT_METHOD }, {
 
 /***/ }),
 
+/***/ "6564":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "65e0":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -109861,6 +109868,13 @@ exports.f = wellKnownSymbol;
 
 /***/ }),
 
+/***/ "c073":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "c1f4":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -113692,6 +113706,17 @@ $({ target: 'String', proto: true, forced: !MDN_POLYFILL_BUG && !CORRECT_IS_REGE
 
 /***/ }),
 
+/***/ "e728":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_0_9_0_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_15_10_0_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_7_3_0_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_4_1_0_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_15_10_0_vue_loader_lib_index_js_vue_loader_options_FatherSonLayout_vue_vue_type_style_index_0_id_7fb35de2_prod_scoped_true_lang_less___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6564");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_0_9_0_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_15_10_0_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_7_3_0_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_4_1_0_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_15_10_0_vue_loader_lib_index_js_vue_loader_options_FatherSonLayout_vue_vue_type_style_index_0_id_7fb35de2_prod_scoped_true_lang_less___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_0_9_0_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_15_10_0_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_7_3_0_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_4_1_0_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_15_10_0_vue_loader_lib_index_js_vue_loader_options_FatherSonLayout_vue_vue_type_style_index_0_id_7fb35de2_prod_scoped_true_lang_less___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "e732":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -114066,6 +114091,74 @@ module.exports = function (target, name, descriptor) {
   if (descriptor.set) makeBuiltIn(descriptor.set, name, { setter: true });
   return defineProperty.f(target, name, descriptor);
 };
+
+
+/***/ }),
+
+/***/ "ee79":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__("41c4");
+var fails = __webpack_require__("444b");
+var isArray = __webpack_require__("5d57");
+var isObject = __webpack_require__("b298");
+var toObject = __webpack_require__("99f6");
+var lengthOfArrayLike = __webpack_require__("08fb");
+var doesNotExceedSafeInteger = __webpack_require__("6f56");
+var createProperty = __webpack_require__("501d");
+var arraySpeciesCreate = __webpack_require__("fc2f");
+var arrayMethodHasSpeciesSupport = __webpack_require__("29a0");
+var wellKnownSymbol = __webpack_require__("11c7");
+var V8_VERSION = __webpack_require__("6aed");
+
+var IS_CONCAT_SPREADABLE = wellKnownSymbol('isConcatSpreadable');
+
+// We can't use this feature detection in V8 since it causes
+// deoptimization and serious performance degradation
+// https://github.com/zloirock/core-js/issues/679
+var IS_CONCAT_SPREADABLE_SUPPORT = V8_VERSION >= 51 || !fails(function () {
+  var array = [];
+  array[IS_CONCAT_SPREADABLE] = false;
+  return array.concat()[0] !== array;
+});
+
+var SPECIES_SUPPORT = arrayMethodHasSpeciesSupport('concat');
+
+var isConcatSpreadable = function (O) {
+  if (!isObject(O)) return false;
+  var spreadable = O[IS_CONCAT_SPREADABLE];
+  return spreadable !== undefined ? !!spreadable : isArray(O);
+};
+
+var FORCED = !IS_CONCAT_SPREADABLE_SUPPORT || !SPECIES_SUPPORT;
+
+// `Array.prototype.concat` method
+// https://tc39.es/ecma262/#sec-array.prototype.concat
+// with adding support of @@isConcatSpreadable and @@species
+$({ target: 'Array', proto: true, arity: 1, forced: FORCED }, {
+  // eslint-disable-next-line no-unused-vars -- required for `.length`
+  concat: function concat(arg) {
+    var O = toObject(this);
+    var A = arraySpeciesCreate(O, 0);
+    var n = 0;
+    var i, k, length, len, E;
+    for (i = -1, length = arguments.length; i < length; i++) {
+      E = i === -1 ? O : arguments[i];
+      if (isConcatSpreadable(E)) {
+        len = lengthOfArrayLike(E);
+        doesNotExceedSafeInteger(n + len);
+        for (k = 0; k < len; k++, n++) if (k in E) createProperty(A, n, E[k]);
+      } else {
+        doesNotExceedSafeInteger(n + 1);
+        createProperty(A, n++, E);
+      }
+    }
+    A.length = n;
+    return A;
+  }
+});
 
 
 /***/ }),
@@ -128753,6 +128846,805 @@ function defaultUrlMethod(baseUrl, primaryKeyField, customUrl) {
     return customUrl;
   }
 }
+// CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"788d0e76-vue-loader-template"}!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--12-0!./node_modules/_thread-loader@2.1.3@thread-loader/dist/cjs.js!./node_modules/_babel-loader@8.2.5@babel-loader/lib!./node_modules/_vue-loader@15.10.0@vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--0-0!./node_modules/_vue-loader@15.10.0@vue-loader/lib??vue-loader-options!./src/components/CURD/Layout/FatherSonLayout.vue?vue&type=template&id=7fb35de2&scoped=true&
+
+
+var FatherSonLayoutvue_type_template_id_7fb35de2_scoped_true_render = function render() {
+  var _vm = this,
+      _c = _vm._self._c;
+
+  return _c('div', {
+    directives: [{
+      name: "resize",
+      rawName: "v-resize",
+      value: _vm.handleResize,
+      expression: "handleResize"
+    }],
+    staticClass: "fathersontable"
+  }, [_vm.effect !== 'pannel' ? _c('div', [_c('div', {
+    ref: "searchdom",
+    staticClass: "searchlist"
+  }, [_vm._t("search")], 2), _c('table-column-preference-setting-api-slot', {
+    attrs: {
+      "init-data": _vm.tableFields,
+      "preference-alias": _vm.conf.namespace
+    },
+    scopedSlots: _vm._u([{
+      key: "default",
+      fn: function fn(_ref) {
+        var doSave = _ref.doSave,
+            preferenceData = _ref.preferenceData,
+            headerDragend = _ref.headerDragend;
+        return [_c('div', {
+          ref: "btnslist",
+          staticClass: "btnslist"
+        }, [_vm._t("btnslist"), _vm.showFields ? _c('curd-table-column-select', {
+          staticStyle: {
+            "float": "right",
+            "margin-left": "10px"
+          },
+          attrs: {
+            "preference-alias": _vm.conf.namespace,
+            "table-fields": preferenceData
+          },
+          on: {
+            "selectedChange": _vm.reRenderTable,
+            "doSave": doSave
+          },
+          model: {
+            value: _vm.showFields,
+            callback: function callback($$v) {
+              _vm.showFields = $$v;
+            },
+            expression: "showFields"
+          }
+        }) : _vm._e()], 2), _c('el-card', {
+          directives: [{
+            name: "loading",
+            rawName: "v-loading",
+            value: _vm.reRending,
+            expression: "reRending"
+          }]
+        }, [_vm.showFields && _vm.showFields.length > 0 ? _vm._t("default", null, {
+          "showFields": _vm.showFields,
+          "headerDragend": headerDragend,
+          "heightTable": _vm.heightTable,
+          "openChild": _vm.openChild
+        }) : _c('span', [_vm._v(" " + _vm._s(_vm.$t('common.selectShowFields')) + " ")])], 2)];
+      }
+    }], null, true),
+    model: {
+      value: _vm.showFields,
+      callback: function callback($$v) {
+        _vm.showFields = $$v;
+      },
+      expression: "showFields"
+    }
+  }), _c('span', {
+    ref: "paginationHeight"
+  }, [_vm._t("pagination")], 2), _vm.effect == 'dialog' ? _c('el-dialog', _vm._b({
+    attrs: {
+      "visible": _vm.isshowdetail
+    },
+    on: {
+      "update:visible": function updateVisible($event) {
+        _vm.isshowdetail = $event;
+      }
+    }
+  }, 'el-dialog', _objectSpread2({
+    width: '75%',
+    top: '5vh',
+    title: _vm.$t('common.detail')
+  }, _vm.$attrs._effect), false), [_vm._t("children", null, {
+    "row": _vm.row,
+    "closeDetailDialog": _vm.closeDetailDialog
+  }), _c('div', {
+    staticClass: "dialog-footer"
+  }, [_c('el-button', {
+    on: {
+      "click": _vm.closeDetailDialog
+    }
+  }, [_vm._v(_vm._s(_vm.$t('common.cancel')))])], 1)], 2) : _vm._e(), _vm.effect == 'drawer' ? _c('el-drawer', _vm._b({
+    attrs: {
+      "visible": _vm.isshowdetail
+    },
+    on: {
+      "update:visible": function updateVisible($event) {
+        _vm.isshowdetail = $event;
+      }
+    }
+  }, 'el-drawer', _objectSpread2({
+    size: '60%',
+    direction: 'rtl',
+    title: _vm.$t('common.detail')
+  }, _vm.$attrs._effect), false), [_vm._t("children", null, {
+    "row": _vm.row,
+    "closeDetailDialog": _vm.closeDetailDialog
+  })], 2) : _vm._e(), _vm.effect == 'bottom' ? _vm._t("children", null, {
+    "row": _vm.row
+  }) : _vm._e()], 2) : _c('div', [_c('hf-resize-split-pane', _vm._b({
+    scopedSlots: _vm._u([{
+      key: "right",
+      fn: function fn() {
+        return [_c('div', {
+          staticStyle: {
+            "padding": "15px 10px 0 10px"
+          }
+        }, [_vm._t("children", null, {
+          "row": _vm.row
+        })], 2)];
+      },
+      proxy: true
+    }], null, true)
+  }, 'hf-resize-split-pane', _vm.$attrs._effect, false), [_c('div', {
+    staticStyle: {
+      "padding": "15px 10px 0 10px"
+    }
+  }, [_c('div', {
+    ref: "searchdom"
+  }, [_vm._t("search")], 2), _c('table-column-preference-setting-api-slot', {
+    attrs: {
+      "init-data": _vm.tableFields,
+      "preference-alias": _vm.conf.namespace
+    },
+    scopedSlots: _vm._u([{
+      key: "default",
+      fn: function fn(_ref2) {
+        var doSave = _ref2.doSave,
+            preferenceData = _ref2.preferenceData,
+            headerDragend = _ref2.headerDragend;
+        return [_c('div', {
+          ref: "btnslist",
+          staticClass: "btnslist"
+        }, [_vm._t("btnslist"), _vm.showFields ? _c('curd-table-column-select', {
+          staticStyle: {
+            "float": "right",
+            "margin-left": "10px"
+          },
+          attrs: {
+            "preference-alias": _vm.conf.namespace,
+            "table-fields": preferenceData
+          },
+          on: {
+            "selectedChange": _vm.reRenderTable,
+            "doSave": doSave
+          },
+          model: {
+            value: _vm.showFields,
+            callback: function callback($$v) {
+              _vm.showFields = $$v;
+            },
+            expression: "showFields"
+          }
+        }) : _vm._e()], 2), _c('el-card', {
+          directives: [{
+            name: "loading",
+            rawName: "v-loading",
+            value: _vm.reRending,
+            expression: "reRending"
+          }]
+        }, [_vm.showFields && _vm.showFields.length > 0 ? _vm._t("default", null, {
+          "showFields": _vm.showFields,
+          "headerDragend": headerDragend,
+          "heightTable": _vm.heightTable,
+          "openChild": _vm.openChild
+        }) : _c('span', [_vm._v(" " + _vm._s(_vm.$t('common.selectShowFields')) + " ")])], 2)];
+      }
+    }], null, true),
+    model: {
+      value: _vm.showFields,
+      callback: function callback($$v) {
+        _vm.showFields = $$v;
+      },
+      expression: "showFields"
+    }
+  }), _c('div'), _c('span', {
+    ref: "paginationHeight"
+  }, [_vm._t("pagination")], 2)], 1)])], 1)]);
+};
+
+var FatherSonLayoutvue_type_template_id_7fb35de2_scoped_true_staticRenderFns = [];
+
+// CONCATENATED MODULE: ./src/components/CURD/Layout/FatherSonLayout.vue?vue&type=template&id=7fb35de2&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"788d0e76-vue-loader-template"}!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--12-0!./node_modules/_thread-loader@2.1.3@thread-loader/dist/cjs.js!./node_modules/_babel-loader@8.2.5@babel-loader/lib!./node_modules/_vue-loader@15.10.0@vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--0-0!./node_modules/_vue-loader@15.10.0@vue-loader/lib??vue-loader-options!./src/views/basic/preferenceSetting/TableColumnPrefenceSettingApiSlot.vue?vue&type=template&id=5027891a&scoped=true&
+var TableColumnPrefenceSettingApiSlotvue_type_template_id_5027891a_scoped_true_render = function render() {
+  var _vm = this,
+      _c = _vm._self._c;
+
+  return _c('preference-setting-api-slot', {
+    attrs: {
+      "preference-type": _vm.preferenceType,
+      "preference-alias": _vm.preferenceAlias
+    },
+    on: {
+      "loadAfter": _vm.loadAfter
+    },
+    scopedSlots: _vm._u([{
+      key: "default",
+      fn: function fn(_ref) {
+        var preferenceData = _ref.preferenceData,
+            doSave = _ref.doSave;
+        return [_vm._t("default", null, {
+          "preferenceData": _vm.preferenceDataComputed(preferenceData),
+          "doSave": _vm.saveHandler(doSave),
+          "headerDragend": _vm.headerDragend
+        })];
+      }
+    }], null, true),
+    model: {
+      value: _vm.stringData,
+      callback: function callback($$v) {
+        _vm.stringData = $$v;
+      },
+      expression: "stringData"
+    }
+  });
+};
+
+var TableColumnPrefenceSettingApiSlotvue_type_template_id_5027891a_scoped_true_staticRenderFns = [];
+
+// CONCATENATED MODULE: ./src/views/basic/preferenceSetting/TableColumnPrefenceSettingApiSlot.vue?vue&type=template&id=5027891a&scoped=true&
+
+// EXTERNAL MODULE: ./node_modules/_core-js@3.25.2@core-js/modules/es.array.concat.js
+var es_array_concat = __webpack_require__("ee79");
+
+// EXTERNAL MODULE: ./node_modules/_core-js@3.25.2@core-js/modules/es.json.stringify.js
+var es_json_stringify = __webpack_require__("ae7a");
+
+// CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"788d0e76-vue-loader-template"}!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--12-0!./node_modules/_thread-loader@2.1.3@thread-loader/dist/cjs.js!./node_modules/_babel-loader@8.2.5@babel-loader/lib!./node_modules/_vue-loader@15.10.0@vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--0-0!./node_modules/_vue-loader@15.10.0@vue-loader/lib??vue-loader-options!./src/views/basic/preferenceSetting/PreferenceSettingApiSlot.vue?vue&type=template&id=18e49d1b&scoped=true&
+var PreferenceSettingApiSlotvue_type_template_id_18e49d1b_scoped_true_render = function render() {
+  var _vm = this,
+      _c = _vm._self._c;
+
+  return _c('div', [_vm._t("default", null, {
+    "preferenceData": _vm.preferenceData,
+    "doSave": _vm.doSave
+  })], 2);
+};
+
+var PreferenceSettingApiSlotvue_type_template_id_18e49d1b_scoped_true_staticRenderFns = [];
+
+// CONCATENATED MODULE: ./src/views/basic/preferenceSetting/PreferenceSettingApiSlot.vue?vue&type=template&id=18e49d1b&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--12-0!./node_modules/_thread-loader@2.1.3@thread-loader/dist/cjs.js!./node_modules/_babel-loader@8.2.5@babel-loader/lib!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--0-0!./node_modules/_vue-loader@15.10.0@vue-loader/lib??vue-loader-options!./src/views/basic/preferenceSetting/PreferenceSettingApiSlot.vue?vue&type=script&lang=js&
+
+
+/* harmony default export */ var PreferenceSettingApiSlotvue_type_script_lang_js_ = ({
+  name: 'PreferenceSettingApiSlot',
+  props: {
+    preferenceType: {
+      type: String
+    },
+    value: {
+      type: String
+    },
+
+    /**
+     * 偏好别名
+     */
+    preferenceAlias: {
+      type: String,
+      default: undefined
+    },
+    immediate: {
+      type: Boolean,
+      default: true
+    }
+  },
+  data: function data() {
+    return {
+      apiGetSetting: '/api/basePreferenceSetting/list/query',
+
+      /**
+       * post的数据
+       */
+      apiPostSetting: '/api/basePreferenceSetting/save',
+
+      /**
+       * 偏好数据
+       */
+      preferenceData: null
+    };
+  },
+  created: function created() {
+    if (this.immediate === true) {
+      this.loadPreferenceSettings();
+    }
+  },
+  methods: {
+    /**
+     * 从远程加载配置
+     */
+    loadPreferenceSettings: function loadPreferenceSettings() {
+      var _this = this;
+
+      if (this.preferenceAlias) {
+        baseApiGetMethod(this.apiGetSetting, {
+          preferenceAlias: this.preferenceAlias,
+          preferenceType: this.preferenceType
+        }).then(function (resp) {
+          if (isSuccessResult(resp)) {
+            var settings = getData(resp);
+
+            if (settings && settings[0] && settings[0].config) {
+              _this.preferenceData = settings[0].config;
+
+              _this.$emit('input', _this.preferenceData);
+            }
+          } else {
+            _this.$message.error(getMessage(resp));
+          }
+
+          _this.$emit('loadAfter');
+        });
+      } else {
+        this.$emit('loadAfter');
+      }
+    },
+
+    /**
+     * 保存的方法
+     * @param data
+     * @param cb
+     */
+    doSave: function doSave(data, cb) {
+      var _this2 = this;
+
+      baseApiPostMethod(this.apiPostSetting, {
+        preferenceType: this.preferenceType,
+        preferenceAlias: this.preferenceAlias,
+        config: data
+      }).then(function (resp) {
+        if (isSuccessResult(resp)) {
+          _this2.$message({
+            message: getMessage(resp),
+            type: 'success'
+          });
+
+          _this2.$emit('input', data);
+
+          if (cb) {
+            cb();
+          }
+        } else {
+          _this2.$message({
+            message: getMessage(resp),
+            type: 'danger'
+          });
+        }
+      });
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/views/basic/preferenceSetting/PreferenceSettingApiSlot.vue?vue&type=script&lang=js&
+ /* harmony default export */ var preferenceSetting_PreferenceSettingApiSlotvue_type_script_lang_js_ = (PreferenceSettingApiSlotvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/views/basic/preferenceSetting/PreferenceSettingApiSlot.vue
+
+
+
+
+
+/* normalize component */
+
+var PreferenceSettingApiSlot_component = normalizeComponent(
+  preferenceSetting_PreferenceSettingApiSlotvue_type_script_lang_js_,
+  PreferenceSettingApiSlotvue_type_template_id_18e49d1b_scoped_true_render,
+  PreferenceSettingApiSlotvue_type_template_id_18e49d1b_scoped_true_staticRenderFns,
+  false,
+  null,
+  "18e49d1b",
+  null
+  
+)
+
+/* harmony default export */ var PreferenceSettingApiSlot = (PreferenceSettingApiSlot_component.exports);
+// CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--12-0!./node_modules/_thread-loader@2.1.3@thread-loader/dist/cjs.js!./node_modules/_babel-loader@8.2.5@babel-loader/lib!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--0-0!./node_modules/_vue-loader@15.10.0@vue-loader/lib??vue-loader-options!./src/views/basic/preferenceSetting/TableColumnPrefenceSettingApiSlot.vue?vue&type=script&lang=js&
+
+
+
+
+
+
+/* harmony default export */ var TableColumnPrefenceSettingApiSlotvue_type_script_lang_js_ = ({
+  name: 'TableColumnPreferenceSettingApiSlot',
+  components: {
+    PreferenceSettingApiSlot: PreferenceSettingApiSlot
+  },
+  props: {
+    /**
+     * 偏好别名
+     */
+    preferenceAlias: {
+      type: String,
+      default: undefined
+    },
+    initData: {
+      type: Array
+    }
+  },
+  computed: {
+    preferenceDataComputed: function preferenceDataComputed() {
+      var _this = this;
+
+      return function (preferenceData) {
+        if (preferenceData) {
+          var res = JSON.parse(preferenceData);
+          var resValues = res.map(function (t) {
+            return t.value;
+          });
+          return res.concat(_this.initData.filter(function (t) {
+            return resValues.indexOf(t.value) < 0;
+          }));
+        }
+
+        return _this.initData.map(function (s) {
+          s.selectChecked = true;
+          return s;
+        });
+      };
+    }
+  },
+  data: function data() {
+    return {
+      preferenceType: 'TABLE_COLUMN_SHOW',
+      stringData: null,
+      widths: {}
+    };
+  },
+  methods: {
+    saveHandler: function saveHandler(doSave) {
+      var _this2 = this;
+
+      return function (data, cb) {
+        // 只显示有效的字段
+        var effectedFields = _this2.initData.map(function (s) {
+          return s.value;
+        });
+
+        for (var ind in data) {
+          data[ind].width = _this2.widths[data[ind].value] || data[ind].width;
+        } // 保存操作
+
+
+        doSave(JSON.stringify(data.filter(function (t) {
+          return effectedFields.indexOf(t.value) >= 0;
+        })), cb);
+      };
+    },
+    loadAfter: function loadAfter() {
+      if (this.stringData) {
+        this.$emit('input', JSON.parse(this.stringData).filter(function (s) {
+          return s.selectChecked;
+        }));
+      } else {
+        this.$emit('input', this.initData);
+      }
+    },
+    headerDragend: function headerDragend(newWidth, oldWidth, column) {
+      this.widths[column.property] = newWidth;
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/views/basic/preferenceSetting/TableColumnPrefenceSettingApiSlot.vue?vue&type=script&lang=js&
+ /* harmony default export */ var preferenceSetting_TableColumnPrefenceSettingApiSlotvue_type_script_lang_js_ = (TableColumnPrefenceSettingApiSlotvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./src/views/basic/preferenceSetting/TableColumnPrefenceSettingApiSlot.vue
+
+
+
+
+
+/* normalize component */
+
+var TableColumnPrefenceSettingApiSlot_component = normalizeComponent(
+  preferenceSetting_TableColumnPrefenceSettingApiSlotvue_type_script_lang_js_,
+  TableColumnPrefenceSettingApiSlotvue_type_template_id_5027891a_scoped_true_render,
+  TableColumnPrefenceSettingApiSlotvue_type_template_id_5027891a_scoped_true_staticRenderFns,
+  false,
+  null,
+  "5027891a",
+  null
+  
+)
+
+/* harmony default export */ var TableColumnPrefenceSettingApiSlot = (TableColumnPrefenceSettingApiSlot_component.exports);
+// CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--12-0!./node_modules/_thread-loader@2.1.3@thread-loader/dist/cjs.js!./node_modules/_babel-loader@8.2.5@babel-loader/lib!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--0-0!./node_modules/_vue-loader@15.10.0@vue-loader/lib??vue-loader-options!./src/components/CURD/Layout/FatherSonLayout.vue?vue&type=script&lang=js&
+
+
+/* harmony default export */ var FatherSonLayoutvue_type_script_lang_js_ = ({
+  components: {
+    TableColumnPreferenceSettingApiSlot: TableColumnPrefenceSettingApiSlot,
+    CurdTableColumnSelect: TableColumnSelect
+  },
+  // 指令:  计算单表的高度 让他自适应高度
+  directives: {
+    resize: {
+      bind: function bind(el, binding) {
+        var width = '';
+        var height = '';
+
+        function isReize() {
+          var style = document.defaultView.getComputedStyle(el);
+
+          if (width !== style.width || height !== style.height) {
+            binding.value({
+              width: style.width,
+              height: style.height
+            });
+          }
+
+          width = style.width;
+          height = style.height;
+        }
+
+        el.__vueSetInterval__ = setInterval(isReize, 100);
+      },
+      unbind: function unbind(el) {
+        clearInterval(el.__vueSetInterval__);
+      }
+    }
+  },
+  props: {
+    tableFields: {
+      type: Array,
+      default: function _default() {
+        return [];
+      }
+    },
+    conf: {
+      type: Object,
+      required: true
+    },
+    // 弹窗为dialog   底部为bottom  左右分pannel 抽屉方式drawer
+    // 默认为none
+    effect: {
+      type: String,
+      default: function _default() {
+        return 'dialog';
+      }
+    }
+  },
+  data: function data() {
+    return {
+      showFields: undefined,
+      heightTable: 900,
+      reRending: false,
+      row: undefined,
+      isshowdetail: false
+    };
+  },
+  methods: {
+    // 表格宽高
+    handleResize: function handleResize(_ref) {
+      var _this = this;
+
+      var height = _ref.height;
+      this.$nextTick(function () {
+        var searchDomHeight = window.getComputedStyle(_this.$refs.searchdom).height;
+        var btnslistHeight = _this.$refs.btnslist ? _this.$refs.btnslist.getBoundingClientRect().height : 0;
+        var paginationHeight = _this.$refs.pagination ? _this.$refs.pagination.getBoundingClientRect().height : 0; //  130 是固定值边距
+
+        _this.heightTable = parseFloat(height) - parseFloat(searchDomHeight) - btnslistHeight - paginationHeight - 130;
+      });
+    },
+    reRenderTable: function reRenderTable(res) {
+      var _this2 = this;
+
+      // 扩展显示的字段
+      this.showFields = []; // 标记为重新渲染中
+
+      this.reRending = true;
+      setTimeout(function () {
+        _this2.showFields = res; // 标记为重新渲染中
+
+        _this2.reRending = false;
+      }, 50);
+    },
+    openChild: function openChild(row) {
+      this.row = row;
+      this.isshowdetail = true;
+    },
+    // 关闭弹窗
+    closeDetailDialog: function closeDetailDialog() {
+      this.isshowdetail = false;
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/components/CURD/Layout/FatherSonLayout.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Layout_FatherSonLayoutvue_type_script_lang_js_ = (FatherSonLayoutvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/components/CURD/Layout/FatherSonLayout.vue?vue&type=style&index=0&id=7fb35de2&prod&scoped=true&lang=less&
+var FatherSonLayoutvue_type_style_index_0_id_7fb35de2_prod_scoped_true_lang_less_ = __webpack_require__("e728");
+
+// CONCATENATED MODULE: ./src/components/CURD/Layout/FatherSonLayout.vue
+
+
+
+
+
+
+/* normalize component */
+
+var FatherSonLayout_component = normalizeComponent(
+  Layout_FatherSonLayoutvue_type_script_lang_js_,
+  FatherSonLayoutvue_type_template_id_7fb35de2_scoped_true_render,
+  FatherSonLayoutvue_type_template_id_7fb35de2_scoped_true_staticRenderFns,
+  false,
+  null,
+  "7fb35de2",
+  null
+  
+)
+
+/* harmony default export */ var FatherSonLayout = (FatherSonLayout_component.exports);
+// CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"788d0e76-vue-loader-template"}!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--12-0!./node_modules/_thread-loader@2.1.3@thread-loader/dist/cjs.js!./node_modules/_babel-loader@8.2.5@babel-loader/lib!./node_modules/_vue-loader@15.10.0@vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--0-0!./node_modules/_vue-loader@15.10.0@vue-loader/lib??vue-loader-options!./src/components/CURD/Layout/SimpleTableLayout.vue?vue&type=template&id=4f0e3f26&scoped=true&
+var SimpleTableLayoutvue_type_template_id_4f0e3f26_scoped_true_render = function render() {
+  var _vm = this,
+      _c = _vm._self._c;
+
+  return _c('div', {
+    directives: [{
+      name: "resize",
+      rawName: "v-resize",
+      value: _vm.handleResize,
+      expression: "handleResize"
+    }],
+    staticClass: "stable"
+  }, [_c('div', [_vm._t("search")], 2), _c('table-column-preference-setting-api-slot', {
+    attrs: {
+      "init-data": _vm.tableFields,
+      "preference-alias": _vm.conf.namespace
+    },
+    scopedSlots: _vm._u([{
+      key: "default",
+      fn: function fn(_ref) {
+        var doSave = _ref.doSave,
+            preferenceData = _ref.preferenceData,
+            headerDragend = _ref.headerDragend;
+        return [_c('div', {
+          staticClass: "btnslist"
+        }, [_vm._t("btnslist"), _vm.showFields ? _c('curd-table-column-select', {
+          staticStyle: {
+            "float": "right"
+          },
+          attrs: {
+            "preference-alias": _vm.conf.namespace,
+            "table-fields": preferenceData
+          },
+          on: {
+            "selectedChange": _vm.reRenderTable,
+            "doSave": doSave
+          },
+          model: {
+            value: _vm.showFields,
+            callback: function callback($$v) {
+              _vm.showFields = $$v;
+            },
+            expression: "showFields"
+          }
+        }) : _vm._e()], 2), _c('el-card', [_vm._t("default", null, {
+          "doSave": doSave,
+          "showFields": _vm.showFields,
+          "headerDragend": headerDragend,
+          "heightTable": _vm.heightTable
+        })], 2)];
+      }
+    }], null, true),
+    model: {
+      value: _vm.showFields,
+      callback: function callback($$v) {
+        _vm.showFields = $$v;
+      },
+      expression: "showFields"
+    }
+  }), _vm._t("pagination")], 2);
+};
+
+var SimpleTableLayoutvue_type_template_id_4f0e3f26_scoped_true_staticRenderFns = [];
+
+// CONCATENATED MODULE: ./src/components/CURD/Layout/SimpleTableLayout.vue?vue&type=template&id=4f0e3f26&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--12-0!./node_modules/_thread-loader@2.1.3@thread-loader/dist/cjs.js!./node_modules/_babel-loader@8.2.5@babel-loader/lib!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--0-0!./node_modules/_vue-loader@15.10.0@vue-loader/lib??vue-loader-options!./src/components/CURD/Layout/SimpleTableLayout.vue?vue&type=script&lang=js&
+
+
+/* harmony default export */ var SimpleTableLayoutvue_type_script_lang_js_ = ({
+  name: 'SimpleTableLayout',
+  components: {
+    TableColumnPreferenceSettingApiSlot: TableColumnPrefenceSettingApiSlot,
+    CurdTableColumnSelect: TableColumnSelect
+  },
+  // 指令:  计算单表的高度 让他自适应高度
+  directives: {
+    resize: {
+      bind: function bind(el, binding) {
+        var width = '';
+        var height = '';
+
+        function isReize() {
+          var style = document.defaultView.getComputedStyle(el);
+
+          if (width !== style.width || height !== style.height) {
+            binding.value({
+              width: style.width,
+              height: style.height
+            });
+          }
+
+          width = style.width;
+          height = style.height;
+        }
+
+        el.__vueSetInterval__ = setInterval(isReize, 100);
+      },
+      unbind: function unbind(el) {
+        clearInterval(el.__vueSetInterval__);
+      }
+    }
+  },
+  props: {
+    tableFields: {
+      type: Array,
+      default: function _default() {
+        return [];
+      }
+    },
+    conf: {
+      type: Object,
+      required: true
+    }
+  },
+  data: function data() {
+    return {
+      showFields: undefined,
+      heightTable: 900
+    };
+  },
+  methods: {
+    // 表格宽高
+    handleResize: function handleResize(_ref) {
+      var height = _ref.height;
+      this.heightTable = parseFloat(height) - 210;
+    },
+    reRenderTable: function reRenderTable(res) {
+      var _this = this;
+
+      // 扩展显示的字段
+      this.showFields = []; // 标记为重新渲染中
+
+      this.reRending = true;
+      setTimeout(function () {
+        _this.showFields = res; // 标记为重新渲染中
+
+        _this.reRending = false;
+      }, 50);
+    }
+  }
+});
+// CONCATENATED MODULE: ./src/components/CURD/Layout/SimpleTableLayout.vue?vue&type=script&lang=js&
+ /* harmony default export */ var Layout_SimpleTableLayoutvue_type_script_lang_js_ = (SimpleTableLayoutvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/components/CURD/Layout/SimpleTableLayout.vue?vue&type=style&index=0&id=4f0e3f26&prod&scoped=true&lang=scss&
+var SimpleTableLayoutvue_type_style_index_0_id_4f0e3f26_prod_scoped_true_lang_scss_ = __webpack_require__("fe4b");
+
+// CONCATENATED MODULE: ./src/components/CURD/Layout/SimpleTableLayout.vue
+
+
+
+
+
+
+/* normalize component */
+
+var SimpleTableLayout_component = normalizeComponent(
+  Layout_SimpleTableLayoutvue_type_script_lang_js_,
+  SimpleTableLayoutvue_type_template_id_4f0e3f26_scoped_true_render,
+  SimpleTableLayoutvue_type_template_id_4f0e3f26_scoped_true_staticRenderFns,
+  false,
+  null,
+  "4f0e3f26",
+  null
+  
+)
+
+/* harmony default export */ var SimpleTableLayout = (SimpleTableLayout_component.exports);
 // CONCATENATED MODULE: ./src/components/CURD/index.js
 
 
@@ -128826,8 +129718,13 @@ function defaultUrlMethod(baseUrl, primaryKeyField, customUrl) {
 
 
 
+ // new
+// Effect
+// import HfResizeSplitPane from "./Effect/HfResizeSplitPane.vue";
 
-var coms = [ApiSlot, AddBtn, CommonDialogBtn, DelBtn, DialogBtnPage, DropdownBtn, ExportBtn, TemplateConfirmBtn, UpdateBtn, CopyBtn, CopyFormItemDict, JsonEditor, Pagination, search, RowSpanSlot, HfTable, DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn, CopierRender, CreateTimeTableColumn, CreatorTableColumn, DefaultTableColumn, EnableStateTableColumn, ImageTableColumn, ModifierTableColumn, ModifyTimeTableColumn, TableColumnSelect, AdaptorTableColumn, cuFrom, EnableStateformItemText, formItemCol, formItemColDict, formItemColDateTime, formItemColDateTimeRange, formItemColUploadImage, formItemColEnableState, formItemColRadio, formItemColRichText, formItemColSelect, formItemColTextarea, formItemText]; // 将来如果有其它组件,都可以写到这个数组里
+
+
+var coms = [ApiSlot, AddBtn, CommonDialogBtn, DelBtn, DialogBtnPage, DropdownBtn, ExportBtn, TemplateConfirmBtn, UpdateBtn, CopyBtn, CopyFormItemDict, JsonEditor, Pagination, search, RowSpanSlot, HfTable, DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn, CopierRender, CreateTimeTableColumn, CreatorTableColumn, DefaultTableColumn, EnableStateTableColumn, ImageTableColumn, ModifierTableColumn, ModifyTimeTableColumn, TableColumnSelect, AdaptorTableColumn, cuFrom, EnableStateformItemText, formItemCol, formItemColDict, formItemColDateTime, formItemColDateTimeRange, formItemColUploadImage, formItemColEnableState, formItemColRadio, formItemColRichText, formItemColSelect, formItemColTextarea, formItemText, SimpleTableLayout, FatherSonLayout]; // 将来如果有其它组件,都可以写到这个数组里
 // 批量组件注册
 
 var install = function install(Vue) {
@@ -128861,6 +129758,17 @@ module.exports = function (argument) {
   if (isConstructor(argument)) return argument;
   throw $TypeError(tryToString(argument) + ' is not a constructor');
 };
+
+
+/***/ }),
+
+/***/ "fe4b":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_0_9_0_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_15_10_0_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_4_1_0_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_15_10_0_vue_loader_lib_index_js_vue_loader_options_SimpleTableLayout_vue_vue_type_style_index_0_id_4f0e3f26_prod_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("c073");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_0_9_0_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_15_10_0_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_4_1_0_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_15_10_0_vue_loader_lib_index_js_vue_loader_options_SimpleTableLayout_vue_vue_type_style_index_0_id_4f0e3f26_prod_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_0_9_0_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_3_6_0_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_15_10_0_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_3_0_0_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_7_3_1_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_4_1_0_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_15_10_0_vue_loader_lib_index_js_vue_loader_options_SimpleTableLayout_vue_vue_type_style_index_0_id_4f0e3f26_prod_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
 
 
 /***/ }),

@@ -80,7 +80,7 @@
     },
     methods: {
       // 表格宽高
-      handleResize({ width, height }) {
+      handleResize({  height }) {
         this.heightTable = parseFloat(height) - 210
       },
 

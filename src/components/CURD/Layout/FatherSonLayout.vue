@@ -141,7 +141,7 @@ export default {
   },
   methods: {
     // 表格宽高
-    handleResize({ width, height }) {
+    handleResize({  height }) {
       this.$nextTick(() => {
         const searchDomHeight = window.getComputedStyle(this.$refs.searchdom).height;
         const btnslistHeight = this.$refs.btnslist ? this.$refs.btnslist.getBoundingClientRect().height : 0
@@ -162,7 +162,7 @@ export default {
         this.reRending = false
       }, 50)
     },
-    openChild(row, column, event) {
+    openChild(row) {
       this.row = row
       this.isshowdetail = true
     },

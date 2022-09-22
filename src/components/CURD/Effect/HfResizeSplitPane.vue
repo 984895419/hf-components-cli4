@@ -77,7 +77,7 @@
     }
   }
 </script>
-<style type="scss">
+<style lang="scss">
   .pane-rs .Resizer {
     z-index: 500;
   }

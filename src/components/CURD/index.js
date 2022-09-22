@@ -62,6 +62,11 @@ import baseApi from './baseApi.js'
 import curdmixin from './curd.mixin.js'
 import defaultUrl from './defaultUrl.js'
 import FormItemMixin from './Form/formItem.mixin.js'
+// new
+// Effect
+// import HfResizeSplitPane from "./Effect/HfResizeSplitPane.vue";
+import FatherSonLayout from "./Layout/FatherSonLayout.vue";
+import SimpleTableLayout from "./Layout/SimpleTableLayout.vue";
 
 
 
@@ -76,7 +81,8 @@ const coms = [
   EnableStateTableColumn, ImageTableColumn, ModifierTableColumn,
   ModifyTimeTableColumn, TableColumnSelect,AdaptorTableColumn,
   cuFrom,EnableStateformItemText,formItemCol,formItemColDict,formItemColDateTime,formItemColDateTimeRange,formItemColUploadImage,
-  formItemColEnableState,formItemColRadio,formItemColRichText,formItemColSelect,formItemColTextarea,formItemText
+  formItemColEnableState,formItemColRadio,formItemColRichText,formItemColSelect,formItemColTextarea,formItemText,
+  SimpleTableLayout,FatherSonLayout
 ]; // 将来如果有其它组件,都可以写到这个数组里
 
 // 批量组件注册
