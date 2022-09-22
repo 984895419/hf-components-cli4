@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { baseApiGetMethod } from '../baseApi'
+import { baseApiGetMethod } from '@/components/CURD/baseApi'
 import { getData, getMessage, isSuccessResult } from '@/utils/ajaxResultUtil'
 import { mapGetters } from 'vuex'
 

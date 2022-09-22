@@ -17,7 +17,7 @@
 <script>
 
 import { getMessage, isSuccessResult } from '@/utils/ajaxResultUtil'
-import { baseApiDeleteMethod } from '../baseApi'
+import { baseApiDeleteMethod } from '@/components/CURD/baseApi'
 import { mapGetters } from 'vuex'
 
 export default {

@@ -13,7 +13,7 @@
 
 <script>
 import { getMessage, isSuccessResult } from '@/utils/ajaxResultUtil'
-import { baseApiDeleteMethod, baseApiPostMethod, baseApiPutMethod, baseApiPostMethodExp } from '../baseApi'
+import { baseApiDeleteMethod, baseApiPostMethod, baseApiPutMethod, baseApiPostMethodExp } from '@/components/CURD/baseApi'
 import { mapGetters } from 'vuex'
 export default {
     name: 'ExportBtn',

@@ -6,8 +6,8 @@
 
 <script>
 import '../../../styles/element-variables.scss'
-import { baseApiGetMethod } from '../baseApi'
-import { getData, getMessage, isSuccessResult } from '../../../utils/ajaxResultUtil'
+import { baseApiGetMethod } from '@/components/CURD/baseApi'
+import { getData, getMessage, isSuccessResult } from '@/utils/ajaxResultUtil'
 
 export default {
   name: 'ApiSlot',
