@@ -24,6 +24,7 @@ import formItemColDateTimeRange from "./Form/formItemColDateTimeRange.vue";
 import formItemColDict from "./Form/formItemColDict.vue";
 import formItemColEnableState from "./Form/formItemColEnableState.vue";
 import formItemColRadio from "./Form/formItemColRadio.vue";
+import formItemColRandom from "./Form/formItemColRandom.vue"
 import formItemColRichText from "./Form/formItemColRichText.vue";
 import formItemColSelect from "./Form/formItemColSelect.vue";
 import formItemColTextarea from "./Form/formItemColTextarea.vue";
@@ -35,13 +36,14 @@ import JsonEditor from "./JsonEditor/index.vue";
 // Pagination
 import CurdPagination from "./pagination/Pagination.vue";
 // Query
-import SimpleSearch from "./Query/search.vue";  
+import SimpleSearch from "./Query/search.vue";
 
 // Slot
 import RowSpanSlot from "./Slot/RowSpanSlot.vue";
 // Table 
 import HfTable from "./Table/HfTable.vue";
 import AdaptorTableColumn from "./Table/AdaptorTableColumn.vue";
+import EditTable from "./Table/EditTable.vue";
 // column base
 import DateTimeFormatTableColumn from "./Table/column/base/DateTimeFormatTableColumn.vue";
 import SectionTableColumn from "./Table/column/base/SectionTableColumn.vue";
@@ -85,22 +87,21 @@ import SelectTableColumn from './Table/column/SelectTableColumn.vue'
 
 
 
-// QuitCu,QuitInputRefer,QuitMultipleRefer,
 const coms = [
   ApiSlot, AddBtn, CommonDialogBtn,
   DelBtn, DialogBtnPage, DropdownBtn, ExportBtn,
   TemplateConfirmBtn, UpdateBtn, CopyBtn,
-  CopyFormItemDict,  JsonEditor ,CurdPagination, SimpleSearch, RowSpanSlot,
-  HfTable,DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn,
+  CopyFormItemDict, JsonEditor, CurdPagination, SimpleSearch, RowSpanSlot,
+  HfTable, DateTimeFormatTableColumn, SectionTableColumn, TagTableColumn,
   CopierRender, CreateTimeTableColumn, CreatorTableColumn, DefaultTableColumn,
   EnableStateTableColumn, ImageTableColumn, ModifierTableColumn,
-  ModifyTimeTableColumn, TableColumnSelect,AdaptorTableColumn,
-  cuFrom,EnableStateformItemText,formItemCol,formItemColDict,formItemColDateTime,formItemColDateTimeRange,formItemColUploadImage,
-  formItemColEnableState,formItemColRadio,formItemColRichText,formItemColSelect,formItemColTextarea,formItemText,
-  SimpleTableLayout,FatherSonLayout,HfTimeline,HfTooltip,
-  hfDialog,hfDict,hfSelect,
-  DictTableColumn,DefaultTableColumn,SelectTableColumn,
-  QuitCu,QuitInputRefer,QuitMultipleRefer,HfResizeSplitPane
+  ModifyTimeTableColumn, TableColumnSelect, AdaptorTableColumn,
+  cuFrom, EnableStateformItemText, formItemCol, formItemColDict, formItemColDateTime, formItemColDateTimeRange, formItemColUploadImage,
+  formItemColEnableState, formItemColRadio, formItemColRichText, formItemColSelect, formItemColTextarea, formItemText, formItemColRandom,
+  SimpleTableLayout, FatherSonLayout, HfTimeline, HfTooltip,
+  hfDialog, hfDict, hfSelect,
+  DictTableColumn, DefaultTableColumn, SelectTableColumn,
+  QuitCu, QuitInputRefer, QuitMultipleRefer, HfResizeSplitPane, EditTable
 ]; // 将来如果有其它组件,都可以写到这个数组里
 
 // 批量组件注册
